@@ -1,0 +1,13 @@
+{
+  "name": "claude-project-icons",
+  "version": "1.0.0",
+  "description": "A working concept for Claude project icons: an original icon set, automatic icon suggestions, and status at a glance.",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/check.mjs",
+    "test": "node scripts/check.mjs && node --test tests/*.test.mjs",
+    "start": "npx --yes serve -l 4173 ."
+  }
+}

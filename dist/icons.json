@@ -1,0 +1,3337 @@
+{
+ "grid": {
+  "viewBox": "0 0 24 24",
+  "strokeWidth": 1.5,
+  "linecap": "round",
+  "linejoin": "round"
+ },
+ "categories": [
+  {
+   "id": "work",
+   "label": "Work & clients"
+  },
+  {
+   "id": "commerce",
+   "label": "Stores & selling"
+  },
+  {
+   "id": "money",
+   "label": "Money & finance"
+  },
+  {
+   "id": "web",
+   "label": "Websites & code"
+  },
+  {
+   "id": "ai",
+   "label": "AI & data"
+  },
+  {
+   "id": "writing",
+   "label": "Writing & docs"
+  },
+  {
+   "id": "creative",
+   "label": "Design & media"
+  },
+  {
+   "id": "school",
+   "label": "School & learning"
+  },
+  {
+   "id": "home",
+   "label": "Home & family"
+  },
+  {
+   "id": "health",
+   "label": "Health & fitness"
+  },
+  {
+   "id": "travel",
+   "label": "Travel & outdoors"
+  },
+  {
+   "id": "food",
+   "label": "Food & drink"
+  },
+  {
+   "id": "play",
+   "label": "Games & hobbies"
+  },
+  {
+   "id": "legal",
+   "label": "Legal & admin"
+  },
+  {
+   "id": "symbols",
+   "label": "Symbols"
+  }
+ ],
+ "palette": [
+  {
+   "id": "clay",
+   "label": "Clay",
+   "light": "#c2603f",
+   "dark": "#e48b6c"
+  },
+  {
+   "id": "amber",
+   "label": "Amber",
+   "light": "#b07a16",
+   "dark": "#e0aa47"
+  },
+  {
+   "id": "olive",
+   "label": "Olive",
+   "light": "#6f7c2b",
+   "dark": "#aab866"
+  },
+  {
+   "id": "green",
+   "label": "Green",
+   "light": "#3c8452",
+   "dark": "#74c08a"
+  },
+  {
+   "id": "teal",
+   "label": "Teal",
+   "light": "#23807d",
+   "dark": "#5fbfba"
+  },
+  {
+   "id": "sky",
+   "label": "Sky",
+   "light": "#2f7bae",
+   "dark": "#6cb0e0"
+  },
+  {
+   "id": "blue",
+   "label": "Blue",
+   "light": "#4462c4",
+   "dark": "#8aa2ef"
+  },
+  {
+   "id": "indigo",
+   "label": "Indigo",
+   "light": "#5d55b9",
+   "dark": "#a29cee"
+  },
+  {
+   "id": "violet",
+   "label": "Violet",
+   "light": "#8a4fb0",
+   "dark": "#c495e3"
+  },
+  {
+   "id": "plum",
+   "label": "Plum",
+   "light": "#a5487e",
+   "dark": "#e08cbb"
+  },
+  {
+   "id": "rose",
+   "label": "Rose",
+   "light": "#bf4a59",
+   "dark": "#ec8794"
+  },
+  {
+   "id": "stone",
+   "label": "Stone",
+   "light": "#6d675c",
+   "dark": "#b3ac9f"
+  }
+ ],
+ "icons": [
+  {
+   "name": "briefcase",
+   "label": "Briefcase",
+   "category": "work",
+   "tags": [
+    "work",
+    "job",
+    "business",
+    "client",
+    "clients",
+    "career",
+    "office",
+    "professional",
+    "consulting",
+    "agency"
+   ],
+   "body": "<rect x=\"3\" y=\"7\" width=\"18\" height=\"13\" rx=\"2\"/><path d=\"M8.5 7V5.5A1.5 1.5 0 0 1 10 4h4a1.5 1.5 0 0 1 1.5 1.5V7\"/><path d=\"M3 12.5h7.5\"/><path d=\"M13.5 12.5H21\"/><rect x=\"10.5\" y=\"11\" width=\"3\" height=\"3\" rx=\"1\"/>"
+  },
+  {
+   "name": "user",
+   "label": "User",
+   "category": "work",
+   "tags": [
+    "person",
+    "profile",
+    "me",
+    "personal",
+    "account",
+    "contact",
+    "client",
+    "individual",
+    "resume"
+   ],
+   "body": "<circle cx=\"12\" cy=\"8\" r=\"4\"/><path d=\"M4.5 20.5c.8-3.9 3.8-6 7.5-6s6.7 2.1 7.5 6\"/>"
+  },
+  {
+   "name": "users",
+   "label": "Users",
+   "category": "work",
+   "tags": [
+    "team",
+    "people",
+    "group",
+    "staff",
+    "crew",
+    "clients",
+    "customers",
+    "community",
+    "hiring",
+    "hr",
+    "members"
+   ],
+   "body": "<circle cx=\"9\" cy=\"8\" r=\"3.5\"/><path d=\"M2.5 20c.6-3.4 3.1-5.5 6.5-5.5s5.9 2.1 6.5 5.5\"/><path d=\"M15.5 4.8a3.5 3.5 0 0 1 0 6.4\"/><path d=\"M17.5 14.8c2.2.6 3.6 2.4 4 5.2\"/>"
+  },
+  {
+   "name": "building",
+   "label": "Building",
+   "category": "work",
+   "tags": [
+    "company",
+    "office",
+    "corporate",
+    "enterprise",
+    "headquarters",
+    "business",
+    "firm",
+    "organization"
+   ],
+   "body": "<path d=\"M4 21V5a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v16\"/><path d=\"M16 9h2a2 2 0 0 1 2 2v10\"/><path d=\"M2.5 21h19\"/><path d=\"M8 7h1\"/><path d=\"M11 7h1\"/><path d=\"M8 11h1\"/><path d=\"M11 11h1\"/><path d=\"M8 15h1\"/><path d=\"M11 15h1\"/>"
+  },
+  {
+   "name": "id-card",
+   "label": "Id card",
+   "category": "work",
+   "tags": [
+    "id",
+    "badge",
+    "identity",
+    "employee",
+    "member",
+    "onboarding",
+    "credentials"
+   ],
+   "body": "<rect x=\"3\" y=\"5\" width=\"18\" height=\"14\" rx=\"2\"/><circle cx=\"8.5\" cy=\"10.5\" r=\"2\"/><path d=\"M5.5 16c.5-1.5 1.6-2.3 3-2.3s2.5.8 3 2.3\"/><path d=\"M14 10h4\"/><path d=\"M14 13.5h3\"/>"
+  },
+  {
+   "name": "contract",
+   "label": "Contract",
+   "category": "work",
+   "tags": [
+    "contract",
+    "agreement",
+    "proposal",
+    "sign",
+    "signature",
+    "deal",
+    "sow",
+    "nda",
+    "terms"
+   ],
+   "body": "<path d=\"M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z\"/><path d=\"M14 3v4a1 1 0 0 0 1 1h4\"/><path d=\"M8.5 9.5h2.5\"/><path d=\"M8 17.5c1.2-1.8 2.3-2.7 2.8-2.2.6.6-.6 2.2.2 2.4.7.2 1.4-1.4 2.2-1.3.6.1.8.9 1.8.9\"/>"
+  },
+  {
+   "name": "presentation",
+   "label": "Presentation",
+   "category": "work",
+   "tags": [
+    "presentation",
+    "deck",
+    "slides",
+    "pitch",
+    "keynote",
+    "talk",
+    "meeting",
+    "demo"
+   ],
+   "body": "<path d=\"M4 4h16v10a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1z\"/><path d=\"M2.5 4h19\"/><path d=\"M12 15v3\"/><path d=\"M8.5 21l3.5-3 3.5 3\"/><path d=\"M8 11l2.5-2.5 2 2L16 7\"/>"
+  },
+  {
+   "name": "chart-bar",
+   "label": "Chart bar",
+   "category": "work",
+   "tags": [
+    "chart",
+    "report",
+    "analytics",
+    "metrics",
+    "stats",
+    "kpi",
+    "dashboard",
+    "performance",
+    "results"
+   ],
+   "body": "<path d=\"M4 4v16h16\"/><path d=\"M8.5 16v-4\"/><path d=\"M12.5 16V8\"/><path d=\"M16.5 16v-6\"/>"
+  },
+  {
+   "name": "chart-line",
+   "label": "Chart line",
+   "category": "work",
+   "tags": [
+    "growth",
+    "trend",
+    "analytics",
+    "report",
+    "traffic",
+    "metrics",
+    "forecast"
+   ],
+   "body": "<path d=\"M4 4v16h16\"/><path d=\"M7.5 14.5l3.5-4 3 2.5 4.5-6\"/>"
+  },
+  {
+   "name": "chart-pie",
+   "label": "Chart pie",
+   "category": "work",
+   "tags": [
+    "pie",
+    "share",
+    "breakdown",
+    "allocation",
+    "survey",
+    "report",
+    "budget"
+   ],
+   "body": "<path d=\"M12 3a9 9 0 1 0 9 9h-9z\"/><path d=\"M15 2.6A8.5 8.5 0 0 1 21.4 9H15z\"/>"
+  },
+  {
+   "name": "target",
+   "label": "Target",
+   "category": "work",
+   "tags": [
+    "goal",
+    "goals",
+    "okr",
+    "objective",
+    "focus",
+    "strategy",
+    "aim",
+    "plan",
+    "marketing"
+   ],
+   "body": "<circle cx=\"12\" cy=\"12\" r=\"9\"/><circle cx=\"12\" cy=\"12\" r=\"5.5\"/><circle cx=\"12\" cy=\"12\" r=\"1.5\" fill=\"currentColor\" stroke=\"none\"/>"
+  },
+  {
+   "name": "megaphone",
+   "label": "Megaphone",
+   "category": "work",
+   "tags": [
+    "marketing",
+    "campaign",
+    "announcement",
+    "promotion",
+    "ads",
+    "advertising",
+    "social",
+    "pr",
+    "launch"
+   ],
+   "body": "<path d=\"M4 10v4a1 1 0 0 0 1 1h2l8 4.5V4.5L7 9H5a1 1 0 0 0-1 1z\"/><path d=\"M7 15l1 5h2.5l-.8-4.2\"/><path d=\"M18.5 9.5a3 3 0 0 1 0 5\"/>"
+  },
+  {
+   "name": "lightbulb",
+   "label": "Lightbulb",
+   "category": "work",
+   "tags": [
+    "idea",
+    "ideas",
+    "brainstorm",
+    "innovation",
+    "startup",
+    "concept",
+    "insight"
+   ],
+   "body": "<path d=\"M9 18h6\"/><path d=\"M10 21h4\"/><path d=\"M12 3a6 6 0 0 0-3.6 10.8c.6.5 1 1.2 1 2V16h5.2v-.2c0-.8.4-1.5 1-2A6 6 0 0 0 12 3z\"/>"
+  },
+  {
+   "name": "calendar",
+   "label": "Calendar",
+   "category": "work",
+   "tags": [
+    "calendar",
+    "schedule",
+    "planning",
+    "events",
+    "dates",
+    "meetings",
+    "agenda",
+    "timeline",
+    "weekly"
+   ],
+   "body": "<rect x=\"3.5\" y=\"5\" width=\"17\" height=\"15.5\" rx=\"2\"/><path d=\"M3.5 10h17\"/><path d=\"M8 3v4\"/><path d=\"M16 3v4\"/><circle cx=\"8\" cy=\"14\" r=\"1\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"12\" cy=\"14\" r=\"1\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"16\" cy=\"14\" r=\"1\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"8\" cy=\"17\" r=\"1\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"12\" cy=\"17\" r=\"1\" fill=\"currentColor\" stroke=\"none\"/>"
+  },
+  {
+   "name": "clock",
+   "label": "Clock",
+   "category": "work",
+   "tags": [
+    "time",
+    "tracking",
+    "timesheet",
+    "hours",
+    "deadline",
+    "schedule"
+   ],
+   "body": "<circle cx=\"12\" cy=\"12\" r=\"9\"/><path d=\"M12 7v5l3 2\"/>"
+  },
+  {
+   "name": "inbox",
+   "label": "Inbox",
+   "category": "work",
+   "tags": [
+    "inbox",
+    "email",
+    "triage",
+    "support",
+    "requests",
+    "tickets",
+    "queue"
+   ],
+   "body": "<path d=\"M3 13l2.5-7.5A2 2 0 0 1 7.4 4h9.2a2 2 0 0 1 1.9 1.5L21 13v5a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z\"/><path d=\"M3 13h5l1.5 2.5h5L16 13h5\"/>"
+  },
+  {
+   "name": "mail",
+   "label": "Mail",
+   "category": "work",
+   "tags": [
+    "email",
+    "mail",
+    "newsletter",
+    "outreach",
+    "letters",
+    "correspondence"
+   ],
+   "body": "<rect x=\"3\" y=\"5\" width=\"18\" height=\"14\" rx=\"2\"/><path d=\"M3.5 6.5l8.5 6.5 8.5-6.5\"/>"
+  },
+  {
+   "name": "phone",
+   "label": "Phone",
+   "category": "work",
+   "tags": [
+    "phone",
+    "calls",
+    "sales",
+    "calls",
+    "support",
+    "hotline",
+    "contact"
+   ],
+   "body": "<path d=\"M5 4h3.5l1.5 4.5-2 1.5a11 11 0 0 0 6 6l1.5-2 4.5 1.5V19a1.5 1.5 0 0 1-1.5 1.5A16.5 16.5 0 0 1 3.5 5.5 1.5 1.5 0 0 1 5 4z\"/>"
+  },
+  {
+   "name": "chat",
+   "label": "Chat",
+   "category": "work",
+   "tags": [
+    "chat",
+    "conversation",
+    "messages",
+    "feedback",
+    "discussion",
+    "support"
+   ],
+   "body": "<path d=\"M5.5 4h13A1.5 1.5 0 0 1 20 5.5v9a1.5 1.5 0 0 1-1.5 1.5H11l-5 4v-4h-.5A1.5 1.5 0 0 1 4 14.5v-9A1.5 1.5 0 0 1 5.5 4z\"/>"
+  },
+  {
+   "name": "chats",
+   "label": "Chats",
+   "category": "work",
+   "tags": [
+    "interviews",
+    "conversations",
+    "community",
+    "forum",
+    "customer",
+    "research",
+    "dialogue"
+   ],
+   "body": "<path d=\"M14 8.5v-3A1.5 1.5 0 0 0 12.5 4h-8A1.5 1.5 0 0 0 3 5.5v6A1.5 1.5 0 0 0 4.5 13H5v3l3.5-3\"/><path d=\"M11.5 8.5h8A1.5 1.5 0 0 1 21 10v6a1.5 1.5 0 0 1-1.5 1.5H19v3l-3.5-3h-4A1.5 1.5 0 0 1 10 16v-6a1.5 1.5 0 0 1 1.5-1.5z\"/>"
+  },
+  {
+   "name": "kanban",
+   "label": "Kanban",
+   "category": "work",
+   "tags": [
+    "kanban",
+    "board",
+    "tasks",
+    "sprint",
+    "project",
+    "management",
+    "backlog",
+    "roadmap",
+    "workflow"
+   ],
+   "body": "<rect x=\"3.5\" y=\"4\" width=\"4.5\" height=\"15\" rx=\"1.5\"/><rect x=\"9.75\" y=\"4\" width=\"4.5\" height=\"9\" rx=\"1.5\"/><rect x=\"16\" y=\"4\" width=\"4.5\" height=\"12\" rx=\"1.5\"/>"
+  },
+  {
+   "name": "checklist",
+   "label": "Checklist",
+   "category": "work",
+   "tags": [
+    "todo",
+    "tasks",
+    "checklist",
+    "list",
+    "chores",
+    "errands",
+    "done"
+   ],
+   "body": "<path d=\"M4 6.5l1.5 1.5 3-3\"/><path d=\"M4 13.5l1.5 1.5 3-3\"/><path d=\"M11.5 7h8.5\"/><path d=\"M11.5 14h8.5\"/><path d=\"M4.5 20h4\"/><path d=\"M11.5 20h8.5\"/>"
+  },
+  {
+   "name": "flag",
+   "label": "Flag",
+   "category": "work",
+   "tags": [
+    "milestone",
+    "launch",
+    "goal",
+    "flag",
+    "priority",
+    "country"
+   ],
+   "body": "<path d=\"M5 21V4\"/><path d=\"M5 4.5c4.5-2 7.5 2 14 0v9c-6.5 2-9.5-2-14 0\"/>"
+  },
+  {
+   "name": "trophy",
+   "label": "Trophy",
+   "category": "work",
+   "tags": [
+    "win",
+    "award",
+    "competition",
+    "achievement",
+    "contest",
+    "championship",
+    "winners"
+   ],
+   "body": "<path d=\"M8 4h8v5a4 4 0 0 1-8 0z\"/><path d=\"M8 6H5.5a.5.5 0 0 0-.5.5C5 9 6.5 11 8.5 11\"/><path d=\"M16 6h2.5a.5.5 0 0 1 .5.5c0 2.5-1.5 4.5-3.5 4.5\"/><path d=\"M12 13v4.5\"/><path d=\"M8.5 20.5h7\"/><path d=\"M9.5 17.5h5v3h-5z\"/>"
+  },
+  {
+   "name": "rocket",
+   "label": "Rocket",
+   "category": "work",
+   "tags": [
+    "launch",
+    "startup",
+    "ship",
+    "release",
+    "growth",
+    "side-project",
+    "mvp"
+   ],
+   "body": "<path d=\"M12 2.8c3.2 2.2 4.7 5.4 4.2 9.6L14.5 16h-5l-1.7-3.6C7.3 8.2 8.8 5 12 2.8z\"/><path d=\"M7.9 12.4L5 15.5l1.2 2.5 3.3-2\"/><path d=\"M16.1 12.4l2.9 3.1-1.2 2.5-3.3-2\"/><path d=\"M10.5 19l1.5 2.5 1.5-2.5\"/><circle cx=\"12\" cy=\"9\" r=\"1.8\"/>"
+  },
+  {
+   "name": "compass",
+   "label": "Compass",
+   "category": "work",
+   "tags": [
+    "strategy",
+    "direction",
+    "explore",
+    "discovery",
+    "navigation",
+    "vision"
+   ],
+   "body": "<circle cx=\"12\" cy=\"12\" r=\"9\"/><path d=\"M15.5 8.5l-2 5-5 2 2-5z\"/>"
+  },
+  {
+   "name": "puzzle",
+   "label": "Puzzle",
+   "category": "work",
+   "tags": [
+    "puzzle",
+    "integration",
+    "problem",
+    "solving",
+    "plugin",
+    "feature",
+    "extension"
+   ],
+   "body": "<path d=\"M6 8h3a2 2 0 1 1 4 0h3a1 1 0 0 1 1 1v3a2 2 0 1 1 0 4v3a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1z\"/>"
+  },
+  {
+   "name": "gear",
+   "label": "Gear",
+   "category": "work",
+   "tags": [
+    "settings",
+    "operations",
+    "ops",
+    "admin",
+    "automation",
+    "configuration",
+    "process",
+    "systems"
+   ],
+   "body": "<path d=\"M10.6 5.24L10.87 3.07A9 9 0 0 1 13.13 3.07L13.4 5.24A6.9 6.9 0 0 1 15.79 6.23L15.79 6.23L17.52 4.89A9 9 0 0 1 19.11 6.48L17.77 8.21A6.9 6.9 0 0 1 18.76 10.6L18.76 10.6L20.93 10.87A9 9 0 0 1 20.93 13.13L18.76 13.4A6.9 6.9 0 0 1 17.77 15.79L17.77 15.79L19.11 17.52A9 9 0 0 1 17.52 19.11L15.79 17.77A6.9 6.9 0 0 1 13.4 18.76L13.4 18.76L13.13 20.93A9 9 0 0 1 10.87 20.93L10.6 18.76A6.9 6.9 0 0 1 8.21 17.77L8.21 17.77L6.48 19.11A9 9 0 0 1 4.89 17.52L6.23 15.79A6.9 6.9 0 0 1 5.24 13.4L5.24 13.4L3.07 13.13A9 9 0 0 1 3.07 10.87L5.24 10.6A6.9 6.9 0 0 1 6.23 8.21L6.23 8.21L4.89 6.48A9 9 0 0 1 6.48 4.89L8.21 6.23A6.9 6.9 0 0 1 10.6 5.24Z\"/><circle cx=\"12\" cy=\"12\" r=\"3\"/>"
+  },
+  {
+   "name": "partnership",
+   "label": "Partnership",
+   "category": "work",
+   "tags": [
+    "partnership",
+    "partners",
+    "deal",
+    "collaboration",
+    "joint",
+    "venture",
+    "handshake",
+    "agreement",
+    "relationship",
+    "merger"
+   ],
+   "body": "<circle cx=\"9\" cy=\"12\" r=\"6\"/><circle cx=\"15\" cy=\"12\" r=\"6\"/>"
+  },
+  {
+   "name": "store",
+   "label": "Store",
+   "category": "commerce",
+   "tags": [
+    "store",
+    "shop",
+    "storefront",
+    "retail",
+    "ecommerce",
+    "shopify",
+    "boutique",
+    "business",
+    "local"
+   ],
+   "body": "<path d=\"M3.5 9l1.5-5h14l1.5 5\"/><path d=\"M3.5 9a2.83 2.83 0 0 0 5.67 0 2.83 2.83 0 0 0 5.66 0 2.83 2.83 0 0 0 5.67 0\"/><path d=\"M5 11.5V20h14v-8.5\"/><path d=\"M10 20v-4.5h4V20\"/>"
+  },
+  {
+   "name": "shopping-bag",
+   "label": "Shopping bag",
+   "category": "commerce",
+   "tags": [
+    "shopping",
+    "bag",
+    "purchase",
+    "merch",
+    "fashion",
+    "apparel",
+    "retail",
+    "products"
+   ],
+   "body": "<path d=\"M6.2 8h11.6a1 1 0 0 1 1 .9l.9 10.5a1.5 1.5 0 0 1-1.5 1.6H5.8a1.5 1.5 0 0 1-1.5-1.6l.9-10.5a1 1 0 0 1 1-.9z\"/><path d=\"M9 10V7a3 3 0 0 1 6 0v3\"/>"
+  },
+  {
+   "name": "cart",
+   "label": "Cart",
+   "category": "commerce",
+   "tags": [
+    "cart",
+    "checkout",
+    "ecommerce",
+    "online",
+    "store",
+    "orders",
+    "buy",
+    "shopping"
+   ],
+   "body": "<path d=\"M2.5 3.5h2.2l2.3 11h11l2-7.5H5.6\"/><circle cx=\"8.5\" cy=\"19\" r=\"1.5\"/><circle cx=\"17\" cy=\"19\" r=\"1.5\"/>"
+  },
+  {
+   "name": "tag",
+   "label": "Tag",
+   "category": "commerce",
+   "tags": [
+    "pricing",
+    "price",
+    "tag",
+    "sale",
+    "label",
+    "product",
+    "catalog",
+    "sku"
+   ],
+   "body": "<path d=\"M3.5 4.5v6.3a1.5 1.5 0 0 0 .44 1.06l8.7 8.7a1.5 1.5 0 0 0 2.12 0l5.3-5.3a1.5 1.5 0 0 0 0-2.12l-8.7-8.7A1.5 1.5 0 0 0 10.3 4H4a.5.5 0 0 0-.5.5z\"/><circle cx=\"8\" cy=\"8.5\" r=\"1.3\"/>"
+  },
+  {
+   "name": "receipt",
+   "label": "Receipt",
+   "category": "commerce",
+   "tags": [
+    "receipt",
+    "expenses",
+    "purchases",
+    "orders",
+    "bills",
+    "reimbursement"
+   ],
+   "body": "<path d=\"M6 3h12v18l-2-1.5-2 1.5-2-1.5-2 1.5-2-1.5-2 1.5z\"/><path d=\"M9 8h6\"/><path d=\"M9 11.5h6\"/><path d=\"M9 15h3.5\"/>"
+  },
+  {
+   "name": "credit-card",
+   "label": "Credit card",
+   "category": "commerce",
+   "tags": [
+    "payments",
+    "card",
+    "billing",
+    "stripe",
+    "checkout",
+    "subscription",
+    "charge"
+   ],
+   "body": "<rect x=\"2.5\" y=\"5\" width=\"19\" height=\"14\" rx=\"2\"/><path d=\"M2.5 9.5h19\"/><path d=\"M6 15h3\"/>"
+  },
+  {
+   "name": "package",
+   "label": "Package",
+   "category": "commerce",
+   "tags": [
+    "package",
+    "shipping",
+    "inventory",
+    "product",
+    "fulfillment",
+    "box",
+    "orders",
+    "warehouse"
+   ],
+   "body": "<path d=\"M12 3l8 4.5v9L12 21l-8-4.5v-9z\"/><path d=\"M4 7.5l8 4.5 8-4.5\"/><path d=\"M12 12v9\"/><path d=\"M8 5.25l8 4.5\"/>"
+  },
+  {
+   "name": "truck",
+   "label": "Truck",
+   "category": "commerce",
+   "tags": [
+    "delivery",
+    "shipping",
+    "logistics",
+    "fleet",
+    "moving",
+    "freight",
+    "supply",
+    "chain"
+   ],
+   "body": "<path d=\"M14 16.5v-10a1 1 0 0 0-1-1H3.5a1 1 0 0 0-1 1v9a1 1 0 0 0 1 1H5\"/><path d=\"M14 9h3.5l3 3.5v3a1 1 0 0 1-1 1H19\"/><path d=\"M9 16.5h6\"/><circle cx=\"7\" cy=\"17\" r=\"2\"/><circle cx=\"17\" cy=\"17\" r=\"2\"/>"
+  },
+  {
+   "name": "barcode",
+   "label": "Barcode",
+   "category": "commerce",
+   "tags": [
+    "inventory",
+    "stock",
+    "sku",
+    "scanning",
+    "products",
+    "warehouse",
+    "catalog"
+   ],
+   "body": "<path d=\"M3 7V5a1 1 0 0 1 1-1h2\"/><path d=\"M18 4h2a1 1 0 0 1 1 1v2\"/><path d=\"M21 17v2a1 1 0 0 1-1 1h-2\"/><path d=\"M6 20H4a1 1 0 0 1-1-1v-2\"/><path d=\"M7 8v8\"/><path d=\"M10 8v8\"/><path d=\"M12.5 8v8\"/><path d=\"M15 8v8\"/><path d=\"M17 8v8\"/>"
+  },
+  {
+   "name": "gift",
+   "label": "Gift",
+   "category": "commerce",
+   "tags": [
+    "gift",
+    "gifts",
+    "present",
+    "birthday",
+    "holiday",
+    "christmas",
+    "registry",
+    "wishlist"
+   ],
+   "body": "<rect x=\"3.5\" y=\"8\" width=\"17\" height=\"4\" rx=\"1\"/><path d=\"M5 12v7.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V12\"/><path d=\"M12 8v12.5\"/><path d=\"M12 8C10.5 4 7 4 7 6c0 1.5 2.5 2 5 2 2.5 0 5-.5 5-2 0-2-3.5-2-5 2\"/>"
+  },
+  {
+   "name": "ticket",
+   "label": "Ticket",
+   "category": "commerce",
+   "tags": [
+    "tickets",
+    "event",
+    "admission",
+    "concert",
+    "show",
+    "coupon",
+    "voucher"
+   ],
+   "body": "<path d=\"M3 9V6.5A1.5 1.5 0 0 1 4.5 5h15A1.5 1.5 0 0 1 21 6.5V9a3 3 0 0 0 0 6v2.5a1.5 1.5 0 0 1-1.5 1.5h-15A1.5 1.5 0 0 1 3 17.5V15a3 3 0 0 0 0-6z\"/><path d=\"M14.5 5v2\"/><path d=\"M14.5 11v2\"/><path d=\"M14.5 17v2\"/>"
+  },
+  {
+   "name": "percent",
+   "label": "Percent",
+   "category": "commerce",
+   "tags": [
+    "discount",
+    "sale",
+    "promo",
+    "coupon",
+    "deals",
+    "offer",
+    "tax",
+    "rate"
+   ],
+   "body": "<circle cx=\"12\" cy=\"12\" r=\"9\"/><path d=\"M9 15l6-6\"/><circle cx=\"9.5\" cy=\"9.5\" r=\"1\"/><circle cx=\"14.5\" cy=\"14.5\" r=\"1\"/>"
+  },
+  {
+   "name": "coins",
+   "label": "Coins",
+   "category": "money",
+   "tags": [
+    "money",
+    "savings",
+    "cash",
+    "coins",
+    "income",
+    "revenue",
+    "earnings"
+   ],
+   "body": "<ellipse cx=\"12\" cy=\"6\" rx=\"7\" ry=\"2.5\"/><path d=\"M5 6v4c0 1.4 3.1 2.5 7 2.5s7-1.1 7-2.5V6\"/><path d=\"M5 10v4c0 1.4 3.1 2.5 7 2.5s7-1.1 7-2.5v-4\"/><path d=\"M5 14v4c0 1.4 3.1 2.5 7 2.5s7-1.1 7-2.5v-4\"/>"
+  },
+  {
+   "name": "wallet",
+   "label": "Wallet",
+   "category": "money",
+   "tags": [
+    "wallet",
+    "personal",
+    "finance",
+    "spending",
+    "budget",
+    "allowance"
+   ],
+   "body": "<path d=\"M3 6.5A2.5 2.5 0 0 1 5.5 4H17a1 1 0 0 1 1 1v3\"/><path d=\"M3 6.5v11A2.5 2.5 0 0 0 5.5 20h13a1.5 1.5 0 0 0 1.5-1.5V9a1 1 0 0 0-1-1H5.5A2.5 2.5 0 0 1 3 5.5\"/><path d=\"M20 11.5h-3a1.75 1.75 0 0 0 0 3.5h3\"/><circle cx=\"17\" cy=\"13.25\" r=\"0.9\" fill=\"currentColor\" stroke=\"none\"/>"
+  },
+  {
+   "name": "piggy-bank",
+   "label": "Piggy bank",
+   "category": "money",
+   "tags": [
+    "savings",
+    "save",
+    "piggy",
+    "bank",
+    "college",
+    "fund",
+    "emergency",
+    "fund",
+    "kids",
+    "allowance"
+   ],
+   "body": "<path d=\"M18.5 11.5c0-3.6-3.2-6-7.2-6-4.3 0-7.3 2.8-7.3 6.3 0 1.9.9 3.4 2.3 4.5V19.5h2.6v-2a9.7 9.7 0 0 0 4.6 0v2h2.6v-3.3c1-.7 1.8-1.6 2.2-2.7H21v-3h-1.5c-.3-.6-.6-1.1-1-1.6V5.5c-1.3.2-2.4.8-3 1.7\"/><path d=\"M9.5 8h3.5\"/><circle cx=\"15.5\" cy=\"10.5\" r=\"0.9\" fill=\"currentColor\" stroke=\"none\"/>"
+  },
+  {
+   "name": "bank",
+   "label": "Bank",
+   "category": "money",
+   "tags": [
+    "bank",
+    "banking",
+    "accounts",
+    "finance",
+    "government",
+    "institution",
+    "loan",
+    "mortgage"
+   ],
+   "body": "<path d=\"M3 9.5L12 4l9 5.5\"/><path d=\"M3.5 20.5h17\"/><path d=\"M5.5 10.5v7\"/><path d=\"M10 10.5v7\"/><path d=\"M14 10.5v7\"/><path d=\"M18.5 10.5v7\"/><path d=\"M4.5 17.5h15\"/><path d=\"M3 9.5h18\"/>"
+  },
+  {
+   "name": "dollar",
+   "label": "Dollar",
+   "category": "money",
+   "tags": [
+    "money",
+    "dollar",
+    "usd",
+    "pricing",
+    "revenue",
+    "income",
+    "sales",
+    "fundraising"
+   ],
+   "body": "<path d=\"M12 3v18\"/><path d=\"M16.5 7.5C16 6 14.3 5 12 5 9.5 5 7.5 6.3 7.5 8.3c0 4.4 9 2.4 9 7 0 2-2 3.2-4.5 3.2-2.4 0-4.2-1-4.7-2.7\"/>"
+  },
+  {
+   "name": "trending-up",
+   "label": "Trending up",
+   "category": "money",
+   "tags": [
+    "investing",
+    "investments",
+    "stocks",
+    "portfolio",
+    "growth",
+    "returns",
+    "gains",
+    "trading"
+   ],
+   "body": "<path d=\"M3 17l6-6 4 4 8-8\"/><path d=\"M15 7h6v6\"/>"
+  },
+  {
+   "name": "calculator",
+   "label": "Calculator",
+   "category": "money",
+   "tags": [
+    "calculator",
+    "taxes",
+    "math",
+    "accounting",
+    "bookkeeping",
+    "estimate",
+    "quote"
+   ],
+   "body": "<rect x=\"5\" y=\"3\" width=\"14\" height=\"18\" rx=\"2\"/><rect x=\"8\" y=\"6\" width=\"8\" height=\"3.5\" rx=\"0.8\"/><circle cx=\"8.5\" cy=\"13\" r=\"1\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"12\" cy=\"13\" r=\"1\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"15.5\" cy=\"13\" r=\"1\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"8.5\" cy=\"17\" r=\"1\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"12\" cy=\"17\" r=\"1\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"15.5\" cy=\"17\" r=\"1\" fill=\"currentColor\" stroke=\"none\"/>"
+  },
+  {
+   "name": "invoice",
+   "label": "Invoice",
+   "category": "money",
+   "tags": [
+    "invoice",
+    "invoices",
+    "billing",
+    "bill",
+    "accounts",
+    "receivable",
+    "payment",
+    "due",
+    "freelance"
+   ],
+   "body": "<path d=\"M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z\"/><path d=\"M14 3v4a1 1 0 0 0 1 1h4\"/><path d=\"M12 10.5v7\"/><path d=\"M14 11.7c-.3-.6-1-1-2-1-1.1 0-2 .5-2 1.3 0 1.8 4 1 4 2.9 0 .8-.9 1.4-2 1.4s-1.8-.4-2.1-1\"/>"
+  },
+  {
+   "name": "safe",
+   "label": "Safe",
+   "category": "money",
+   "tags": [
+    "safe",
+    "vault",
+    "security",
+    "savings",
+    "valuables",
+    "secure",
+    "reserve"
+   ],
+   "body": "<rect x=\"3.5\" y=\"4\" width=\"17\" height=\"15\" rx=\"2\"/><circle cx=\"12\" cy=\"11.5\" r=\"3.5\"/><path d=\"M12 8v1\"/><path d=\"M12 14v1\"/><path d=\"M8.5 11.5h1\"/><path d=\"M14.5 11.5h1\"/><path d=\"M6.5 19v1.5\"/><path d=\"M17.5 19v1.5\"/>"
+  },
+  {
+   "name": "candles",
+   "label": "Candles",
+   "category": "money",
+   "tags": [
+    "trading",
+    "stocks",
+    "crypto",
+    "market",
+    "charts",
+    "investing",
+    "exchange"
+   ],
+   "body": "<rect x=\"5\" y=\"6\" width=\"4\" height=\"9\" rx=\"1\"/><rect x=\"15\" y=\"8\" width=\"4\" height=\"9\" rx=\"1\"/><path d=\"M7 3v3\"/><path d=\"M7 15v5\"/><path d=\"M17 4v4\"/><path d=\"M17 17v3\"/>"
+  },
+  {
+   "name": "budget",
+   "label": "Budget",
+   "category": "money",
+   "tags": [
+    "budget",
+    "budgeting",
+    "expenses",
+    "spending",
+    "plan",
+    "household",
+    "finances",
+    "monthly"
+   ],
+   "body": "<rect x=\"3.5\" y=\"4\" width=\"17\" height=\"16\" rx=\"2\"/><path d=\"M3.5 9h17\"/><path d=\"M8 13h3\"/><path d=\"M8 16.5h3\"/><path d=\"M14 13h2.5\"/><path d=\"M14 16.5h2.5\"/>"
+  },
+  {
+   "name": "globe",
+   "label": "Globe",
+   "category": "web",
+   "tags": [
+    "website",
+    "web",
+    "site",
+    "internet",
+    "global",
+    "international",
+    "online",
+    "domain",
+    "world"
+   ],
+   "body": "<circle cx=\"12\" cy=\"12\" r=\"9\"/><path d=\"M3 12h18\"/><path d=\"M12 3c2.5 2.5 3.8 5.5 3.8 9s-1.3 6.5-3.8 9c-2.5-2.5-3.8-5.5-3.8-9S9.5 5.5 12 3z\"/>"
+  },
+  {
+   "name": "browser",
+   "label": "Browser",
+   "category": "web",
+   "tags": [
+    "website",
+    "webpage",
+    "landing",
+    "page",
+    "web",
+    "app",
+    "redesign",
+    "wordpress",
+    "site",
+    "browser"
+   ],
+   "body": "<rect x=\"3\" y=\"4\" width=\"18\" height=\"16\" rx=\"2\"/><path d=\"M3 8.5h18\"/><circle cx=\"6\" cy=\"6.25\" r=\"0.8\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"8.5\" cy=\"6.25\" r=\"0.8\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"11\" cy=\"6.25\" r=\"0.8\" fill=\"currentColor\" stroke=\"none\"/>"
+  },
+  {
+   "name": "code",
+   "label": "Code",
+   "category": "web",
+   "tags": [
+    "code",
+    "coding",
+    "programming",
+    "developer",
+    "software",
+    "dev",
+    "engineering",
+    "html",
+    "javascript"
+   ],
+   "body": "<path d=\"M8.5 7L3.5 12l5 5\"/><path d=\"M15.5 7l5 5-5 5\"/><path d=\"M13.5 5l-3 14\"/>"
+  },
+  {
+   "name": "terminal",
+   "label": "Terminal",
+   "category": "web",
+   "tags": [
+    "terminal",
+    "cli",
+    "shell",
+    "scripts",
+    "command",
+    "line",
+    "devops",
+    "bash"
+   ],
+   "body": "<rect x=\"3\" y=\"4\" width=\"18\" height=\"16\" rx=\"2\"/><path d=\"M7 9.5l2.5 2.5L7 14.5\"/><path d=\"M12 15h5\"/>"
+  },
+  {
+   "name": "database",
+   "label": "Database",
+   "category": "web",
+   "tags": [
+    "database",
+    "data",
+    "sql",
+    "postgres",
+    "storage",
+    "records",
+    "backend"
+   ],
+   "body": "<ellipse cx=\"12\" cy=\"5.5\" rx=\"7.5\" ry=\"2.5\"/><path d=\"M4.5 5.5v13c0 1.4 3.4 2.5 7.5 2.5s7.5-1.1 7.5-2.5v-13\"/><path d=\"M4.5 12c0 1.4 3.4 2.5 7.5 2.5s7.5-1.1 7.5-2.5\"/>"
+  },
+  {
+   "name": "server",
+   "label": "Server",
+   "category": "web",
+   "tags": [
+    "server",
+    "hosting",
+    "infrastructure",
+    "backend",
+    "homelab",
+    "devops",
+    "self-hosted"
+   ],
+   "body": "<rect x=\"3.5\" y=\"4\" width=\"17\" height=\"7\" rx=\"1.5\"/><rect x=\"3.5\" y=\"13\" width=\"17\" height=\"7\" rx=\"1.5\"/><circle cx=\"7\" cy=\"7.5\" r=\"1\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"7\" cy=\"16.5\" r=\"1\" fill=\"currentColor\" stroke=\"none\"/><path d=\"M14 7.5h3\"/><path d=\"M14 16.5h3\"/>"
+  },
+  {
+   "name": "cloud",
+   "label": "Cloud",
+   "category": "web",
+   "tags": [
+    "cloud",
+    "aws",
+    "hosting",
+    "saas",
+    "sync",
+    "backup",
+    "storage",
+    "deploy"
+   ],
+   "body": "<path d=\"M7 18.5h10a4 4 0 0 0 .5-7.97A6 6 0 0 0 6.2 9.6 4.5 4.5 0 0 0 7 18.5z\"/>"
+  },
+  {
+   "name": "git-branch",
+   "label": "Git branch",
+   "category": "web",
+   "tags": [
+    "git",
+    "github",
+    "repo",
+    "repository",
+    "branch",
+    "version",
+    "control",
+    "open",
+    "source"
+   ],
+   "body": "<circle cx=\"6.5\" cy=\"5.5\" r=\"2\"/><circle cx=\"6.5\" cy=\"18.5\" r=\"2\"/><circle cx=\"17.5\" cy=\"6.5\" r=\"2\"/><path d=\"M6.5 7.5v9\"/><path d=\"M17.5 8.5v1.5a4 4 0 0 1-4 4h-3a4 4 0 0 0-4 2.5\"/>"
+  },
+  {
+   "name": "bug",
+   "label": "Bug",
+   "category": "web",
+   "tags": [
+    "bug",
+    "bugs",
+    "debugging",
+    "qa",
+    "testing",
+    "issues",
+    "fixes"
+   ],
+   "body": "<path d=\"M8 10a4 4 0 0 1 8 0v4.5a4 4 0 0 1-8 0z\"/><path d=\"M9.5 6.5a2.5 2.5 0 0 1 5 0\"/><path d=\"M8 12.5H4.5\"/><path d=\"M19.5 12.5H16\"/><path d=\"M8.3 16.5l-3 2\"/><path d=\"M15.7 16.5l3 2\"/><path d=\"M8.3 8.5l-3-2\"/><path d=\"M15.7 8.5l3-2\"/><path d=\"M12 10v8\"/>"
+  },
+  {
+   "name": "plug",
+   "label": "Plug",
+   "category": "web",
+   "tags": [
+    "api",
+    "integration",
+    "connector",
+    "plugin",
+    "webhook",
+    "mcp",
+    "connect"
+   ],
+   "body": "<path d=\"M9 3v4\"/><path d=\"M15 3v4\"/><path d=\"M6.5 7h11v3a5.5 5.5 0 0 1-11 0z\"/><path d=\"M12 15.5V21\"/>"
+  },
+  {
+   "name": "layout",
+   "label": "Layout",
+   "category": "web",
+   "tags": [
+    "layout",
+    "wireframe",
+    "ui",
+    "ux",
+    "interface",
+    "template",
+    "dashboard",
+    "design",
+    "system"
+   ],
+   "body": "<rect x=\"3.5\" y=\"3.5\" width=\"17\" height=\"17\" rx=\"2\"/><path d=\"M3.5 9h17\"/><path d=\"M10 9v11.5\"/>"
+  },
+  {
+   "name": "cursor",
+   "label": "Cursor",
+   "category": "web",
+   "tags": [
+    "click",
+    "ux",
+    "conversion",
+    "cro",
+    "interaction",
+    "prototype",
+    "user",
+    "testing"
+   ],
+   "body": "<path d=\"M8 8l3.8 12.5 1.9-5.5 5.5-1.9z\"/><path d=\"M10 2.5v2\"/><path d=\"M4 4l1.5 1.5\"/><path d=\"M2.5 10h2\"/>"
+  },
+  {
+   "name": "smartphone",
+   "label": "Smartphone",
+   "category": "web",
+   "tags": [
+    "mobile",
+    "app",
+    "ios",
+    "android",
+    "phone",
+    "app",
+    "development"
+   ],
+   "body": "<rect x=\"6.5\" y=\"2.5\" width=\"11\" height=\"19\" rx=\"2.5\"/><path d=\"M11 18.5h2\"/>"
+  },
+  {
+   "name": "laptop",
+   "label": "Laptop",
+   "category": "web",
+   "tags": [
+    "laptop",
+    "computer",
+    "remote",
+    "work",
+    "freelancing",
+    "tech",
+    "setup"
+   ],
+   "body": "<path d=\"M4.5 15.5v-9A1.5 1.5 0 0 1 6 5h12a1.5 1.5 0 0 1 1.5 1.5v9\"/><path d=\"M2.5 18.5h19\"/><path d=\"M4.5 15.5h15l2 3\"/>"
+  },
+  {
+   "name": "monitor",
+   "label": "Monitor",
+   "category": "web",
+   "tags": [
+    "desktop",
+    "computer",
+    "screen",
+    "display",
+    "it",
+    "pc"
+   ],
+   "body": "<rect x=\"3\" y=\"4\" width=\"18\" height=\"12\" rx=\"2\"/><path d=\"M9 20h6\"/><path d=\"M12 16v4\"/>"
+  },
+  {
+   "name": "wifi",
+   "label": "Wifi",
+   "category": "web",
+   "tags": [
+    "network",
+    "internet",
+    "wifi",
+    "it",
+    "connectivity",
+    "smart",
+    "home"
+   ],
+   "body": "<path d=\"M2.5 9a14 14 0 0 1 19 0\"/><path d=\"M5.5 12.5a9.5 9.5 0 0 1 13 0\"/><path d=\"M8.5 15.8a5 5 0 0 1 7 0\"/><circle cx=\"12\" cy=\"19.2\" r=\"1\" fill=\"currentColor\" stroke=\"none\"/>"
+  },
+  {
+   "name": "lock",
+   "label": "Lock",
+   "category": "web",
+   "tags": [
+    "security",
+    "privacy",
+    "passwords",
+    "secure",
+    "encryption",
+    "private"
+   ],
+   "body": "<rect x=\"4.5\" y=\"10.5\" width=\"15\" height=\"10.5\" rx=\"2\"/><path d=\"M8 10.5V7a4 4 0 0 1 8 0v3.5\"/><path d=\"M12 14.5V17\"/>"
+  },
+  {
+   "name": "key",
+   "label": "Key",
+   "category": "web",
+   "tags": [
+    "keys",
+    "access",
+    "credentials",
+    "auth",
+    "login",
+    "api",
+    "keys"
+   ],
+   "body": "<circle cx=\"7.5\" cy=\"15.5\" r=\"4\"/><path d=\"M10.3 12.7L20 3\"/><path d=\"M15.5 7.5L18 10\"/><path d=\"M18 5l2 2\"/>"
+  },
+  {
+   "name": "shield",
+   "label": "Shield",
+   "category": "web",
+   "tags": [
+    "security",
+    "safety",
+    "protection",
+    "compliance",
+    "insurance",
+    "cyber"
+   ],
+   "body": "<path d=\"M12 3l7.5 3v5.5c0 4.5-3.2 8.2-7.5 9.5-4.3-1.3-7.5-5-7.5-9.5V6z\"/><path d=\"M9 12l2 2 4-4\"/>"
+  },
+  {
+   "name": "link",
+   "label": "Link",
+   "category": "web",
+   "tags": [
+    "links",
+    "urls",
+    "bookmarks",
+    "resources",
+    "references",
+    "seo",
+    "backlinks"
+   ],
+   "body": "<path d=\"M10 14a4.5 4.5 0 0 0 6.4 0l3-3a4.5 4.5 0 0 0-6.4-6.4L11.5 6\"/><path d=\"M14 10a4.5 4.5 0 0 0-6.4 0l-3 3a4.5 4.5 0 0 0 6.4 6.4l1.5-1.5\"/>"
+  },
+  {
+   "name": "search",
+   "label": "Search",
+   "category": "web",
+   "tags": [
+    "search",
+    "research",
+    "seo",
+    "discovery",
+    "find",
+    "lookup",
+    "investigation"
+   ],
+   "body": "<circle cx=\"10.5\" cy=\"10.5\" r=\"6.5\"/><path d=\"M15.5 15.5l5 5\"/>"
+  },
+  {
+   "name": "sitemap",
+   "label": "Sitemap",
+   "category": "web",
+   "tags": [
+    "sitemap",
+    "architecture",
+    "information",
+    "structure",
+    "navigation",
+    "hierarchy",
+    "org",
+    "chart"
+   ],
+   "body": "<rect x=\"9\" y=\"3\" width=\"6\" height=\"4.5\" rx=\"1\"/><rect x=\"3\" y=\"16.5\" width=\"6\" height=\"4.5\" rx=\"1\"/><rect x=\"15\" y=\"16.5\" width=\"6\" height=\"4.5\" rx=\"1\"/><path d=\"M12 7.5V12\"/><path d=\"M6 16.5v-3A1.5 1.5 0 0 1 7.5 12h9a1.5 1.5 0 0 1 1.5 1.5v3\"/>"
+  },
+  {
+   "name": "apps",
+   "label": "Apps",
+   "category": "web",
+   "tags": [
+    "apps",
+    "integrations",
+    "tools",
+    "suite",
+    "saas",
+    "platform",
+    "widgets"
+   ],
+   "body": "<rect x=\"4\" y=\"4\" width=\"6.5\" height=\"6.5\" rx=\"1.5\"/><rect x=\"13.5\" y=\"4\" width=\"6.5\" height=\"6.5\" rx=\"1.5\"/><rect x=\"4\" y=\"13.5\" width=\"6.5\" height=\"6.5\" rx=\"1.5\"/><rect x=\"13.5\" y=\"13.5\" width=\"6.5\" height=\"6.5\" rx=\"1.5\"/>"
+  },
+  {
+   "name": "sparkles",
+   "label": "Sparkles",
+   "category": "ai",
+   "tags": [
+    "ai",
+    "claude",
+    "assistant",
+    "magic",
+    "generative",
+    "prompts",
+    "automation",
+    "llm"
+   ],
+   "body": "<path d=\"M11 3c.5 3.5 2.5 5.5 6 6-3.5.5-5.5 2.5-6 6-.5-3.5-2.5-5.5-6-6 3.5-.5 5.5-2.5 6-6z\"/><path d=\"M18 14c.25 1.8 1.2 2.75 3 3-1.8.25-2.75 1.2-3 3-.25-1.8-1.2-2.75-3-3 1.8-.25 2.75-1.2 3-3z\"/><path d=\"M5.5 15.5c.2 1.2.8 1.8 2 2-1.2.2-1.8.8-2 2-.2-1.2-.8-1.8-2-2 1.2-.2 1.8-.8 2-2z\"/>"
+  },
+  {
+   "name": "robot",
+   "label": "Robot",
+   "category": "ai",
+   "tags": [
+    "bot",
+    "agent",
+    "agents",
+    "chatbot",
+    "automation",
+    "ai",
+    "robotics"
+   ],
+   "body": "<rect x=\"4.5\" y=\"8\" width=\"15\" height=\"11\" rx=\"3\"/><path d=\"M12 5v3\"/><path d=\"M10 15.5h4\"/><path d=\"M2.5 12.5v3\"/><path d=\"M21.5 12.5v3\"/><circle cx=\"12\" cy=\"4\" r=\"1\"/><circle cx=\"9.5\" cy=\"12.5\" r=\"1.2\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"14.5\" cy=\"12.5\" r=\"1.2\" fill=\"currentColor\" stroke=\"none\"/>"
+  },
+  {
+   "name": "chip",
+   "label": "Chip",
+   "category": "ai",
+   "tags": [
+    "hardware",
+    "chip",
+    "electronics",
+    "embedded",
+    "iot",
+    "arduino",
+    "gpu",
+    "compute"
+   ],
+   "body": "<rect x=\"6\" y=\"6\" width=\"12\" height=\"12\" rx=\"2\"/><rect x=\"9.5\" y=\"9.5\" width=\"5\" height=\"5\" rx=\"0.8\"/><path d=\"M9 3v3\"/><path d=\"M15 3v3\"/><path d=\"M9 18v3\"/><path d=\"M15 18v3\"/><path d=\"M3 9h3\"/><path d=\"M3 15h3\"/><path d=\"M18 9h3\"/><path d=\"M18 15h3\"/>"
+  },
+  {
+   "name": "network",
+   "label": "Network",
+   "category": "ai",
+   "tags": [
+    "network",
+    "graph",
+    "nodes",
+    "connections",
+    "knowledge",
+    "graph",
+    "neural",
+    "mesh"
+   ],
+   "body": "<circle cx=\"12\" cy=\"5\" r=\"2\"/><circle cx=\"5\" cy=\"18\" r=\"2\"/><circle cx=\"19\" cy=\"18\" r=\"2\"/><path d=\"M11 6.8l-5 9.4\"/><path d=\"M13 6.8l5 9.4\"/><path d=\"M7 18h10\"/>"
+  },
+  {
+   "name": "brain",
+   "label": "Brain",
+   "category": "ai",
+   "tags": [
+    "brain",
+    "thinking",
+    "psychology",
+    "neuroscience",
+    "learning",
+    "memory",
+    "mental",
+    "model"
+   ],
+   "body": "<path d=\"M12 5a3 3 0 1 0-5.8 1A3 3 0 0 0 4 11a3 3 0 0 0 1.5 5.2A3 3 0 0 0 12 18\"/><path d=\"M12 5a3 3 0 1 1 5.8 1A3 3 0 0 1 20 11a3 3 0 0 1-1.5 5.2A3 3 0 0 1 12 18\"/><path d=\"M12 5v15\"/><path d=\"M8 10.5a2 2 0 0 0 2 2\"/><path d=\"M16 10.5a2 2 0 0 1-2 2\"/>"
+  },
+  {
+   "name": "scatter",
+   "label": "Scatter",
+   "category": "ai",
+   "tags": [
+    "data",
+    "science",
+    "statistics",
+    "analysis",
+    "dataset",
+    "machine",
+    "learning",
+    "experiments"
+   ],
+   "body": "<path d=\"M4 4v16h16\"/><circle cx=\"8.5\" cy=\"14.5\" r=\"1.3\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"11\" cy=\"10.5\" r=\"1.3\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"14\" cy=\"13\" r=\"1.3\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"16.5\" cy=\"7.5\" r=\"1.3\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"18\" cy=\"11\" r=\"1.3\" fill=\"currentColor\" stroke=\"none\"/>"
+  },
+  {
+   "name": "table",
+   "label": "Table",
+   "category": "ai",
+   "tags": [
+    "spreadsheet",
+    "sheets",
+    "excel",
+    "csv",
+    "table",
+    "data",
+    "tracker",
+    "airtable"
+   ],
+   "body": "<rect x=\"3.5\" y=\"4\" width=\"17\" height=\"16\" rx=\"2\"/><path d=\"M3.5 9h17\"/><path d=\"M3.5 14.5h17\"/><path d=\"M9.5 4v16\"/>"
+  },
+  {
+   "name": "flow",
+   "label": "Flow",
+   "category": "ai",
+   "tags": [
+    "workflow",
+    "automation",
+    "pipeline",
+    "zapier",
+    "process",
+    "flowchart"
+   ],
+   "body": "<rect x=\"3.5\" y=\"3.5\" width=\"6\" height=\"6\" rx=\"1.5\"/><rect x=\"14.5\" y=\"14.5\" width=\"6\" height=\"6\" rx=\"1.5\"/><path d=\"M9.5 6.5h4a3 3 0 0 1 3 3v5\"/>"
+  },
+  {
+   "name": "infinity",
+   "label": "Infinity",
+   "category": "ai",
+   "tags": [
+    "loop",
+    "continuous",
+    "recurring",
+    "forever",
+    "ongoing",
+    "ci",
+    "cd",
+    "subscription"
+   ],
+   "body": "<path d=\"M12 12c-2-2.5-3.6-4-5.5-4a4 4 0 0 0 0 8c1.9 0 3.5-1.5 5.5-4zm0 0c2 2.5 3.6 4 5.5 4a4 4 0 0 0 0-8c-1.9 0-3.5 1.5-5.5 4z\"/>"
+  },
+  {
+   "name": "document",
+   "label": "Document",
+   "category": "writing",
+   "tags": [
+    "document",
+    "doc",
+    "docs",
+    "report",
+    "paper",
+    "draft",
+    "notes",
+    "file",
+    "pdf"
+   ],
+   "body": "<path d=\"M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z\"/><path d=\"M14 3v4a1 1 0 0 0 1 1h4\"/><path d=\"M8.5 13h7\"/><path d=\"M8.5 16.5h5\"/>"
+  },
+  {
+   "name": "notebook",
+   "label": "Notebook",
+   "category": "writing",
+   "tags": [
+    "notes",
+    "notebook",
+    "journal",
+    "diary",
+    "log",
+    "meeting",
+    "notes"
+   ],
+   "body": "<rect x=\"5\" y=\"3\" width=\"14\" height=\"18\" rx=\"2\"/><path d=\"M9 3v18\"/><path d=\"M12.5 8H16\"/><path d=\"M12.5 11.5H16\"/><path d=\"M3.5 7h3\"/><path d=\"M3.5 12h3\"/><path d=\"M3.5 17h3\"/>"
+  },
+  {
+   "name": "pencil",
+   "label": "Pencil",
+   "category": "writing",
+   "tags": [
+    "edit",
+    "editing",
+    "draft",
+    "writing",
+    "copy",
+    "copywriting",
+    "sketch"
+   ],
+   "body": "<path d=\"M16.5 3.5a2.1 2.1 0 0 1 3 3L8 18l-4 1 1-4z\"/><path d=\"M14.5 5.5l3 3\"/>"
+  },
+  {
+   "name": "pen-line",
+   "label": "Pen line",
+   "category": "writing",
+   "tags": [
+    "write",
+    "writing",
+    "essay",
+    "blog",
+    "post",
+    "article",
+    "content",
+    "author"
+   ],
+   "body": "<path d=\"M15.5 4.5a2.1 2.1 0 0 1 3 3L8 18l-4 1 1-4z\"/><path d=\"M13.5 6.5l3 3\"/><path d=\"M12 20.5h8.5\"/>"
+  },
+  {
+   "name": "book-open",
+   "label": "Book open",
+   "category": "writing",
+   "tags": [
+    "book",
+    "books",
+    "reading",
+    "novel",
+    "library",
+    "ebook",
+    "manuscript",
+    "publishing"
+   ],
+   "body": "<path d=\"M12 6.5C10.5 5 8 4.5 3 4.5v14c5 0 7.5.5 9 2 1.5-1.5 4-2 9-2v-14c-5 0-7.5.5-9 2z\"/><path d=\"M12 6.5v14\"/>"
+  },
+  {
+   "name": "bookmark",
+   "label": "Bookmark",
+   "category": "writing",
+   "tags": [
+    "saved",
+    "reading",
+    "list",
+    "research",
+    "references",
+    "favorites"
+   ],
+   "body": "<path d=\"M7 3.5h10a1 1 0 0 1 1 1v16l-6-4-6 4v-16a1 1 0 0 1 1-1z\"/>"
+  },
+  {
+   "name": "quote",
+   "label": "Quote",
+   "category": "writing",
+   "tags": [
+    "quotes",
+    "testimonials",
+    "speech",
+    "poetry",
+    "interviews",
+    "copy"
+   ],
+   "body": "<circle cx=\"7.5\" cy=\"14\" r=\"2.5\"/><circle cx=\"16.5\" cy=\"14\" r=\"2.5\"/><path d=\"M5 14c0-4 1.5-6.5 5-8\"/><path d=\"M14 14c0-4 1.5-6.5 5-8\"/>"
+  },
+  {
+   "name": "newspaper",
+   "label": "Newspaper",
+   "category": "writing",
+   "tags": [
+    "news",
+    "newsletter",
+    "press",
+    "journalism",
+    "media",
+    "blog",
+    "digest"
+   ],
+   "body": "<path d=\"M4 5h12v13.5A1.5 1.5 0 0 0 17.5 20h-12A1.5 1.5 0 0 1 4 18.5z\"/><path d=\"M16 9h3.5v9.5a1.5 1.5 0 0 1-3 0\"/><path d=\"M7 8.5h6\"/><path d=\"M7 12h6\"/><path d=\"M7 15.5h4\"/>"
+  },
+  {
+   "name": "feather",
+   "label": "Feather",
+   "category": "writing",
+   "tags": [
+    "poetry",
+    "creative",
+    "writing",
+    "fiction",
+    "story",
+    "literature"
+   ],
+   "body": "<path d=\"M19.5 4.5C12 4 6.5 9 6.5 17.5c8 0 13-5.5 13-13z\"/><path d=\"M4 20l9.5-9.5\"/><path d=\"M10.5 13.5h5\"/>"
+  },
+  {
+   "name": "type",
+   "label": "Type",
+   "category": "writing",
+   "tags": [
+    "typography",
+    "fonts",
+    "text",
+    "copy",
+    "wording",
+    "editorial"
+   ],
+   "body": "<path d=\"M5 7V5h14v2\"/><path d=\"M12 5v14\"/><path d=\"M9.5 19h5\"/>"
+  },
+  {
+   "name": "list",
+   "label": "List",
+   "category": "writing",
+   "tags": [
+    "list",
+    "outline",
+    "agenda",
+    "index",
+    "lists",
+    "notes",
+    "plan"
+   ],
+   "body": "<path d=\"M9 6.5h11\"/><path d=\"M9 12h11\"/><path d=\"M9 17.5h11\"/><circle cx=\"4.75\" cy=\"6.5\" r=\"1\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"4.75\" cy=\"12\" r=\"1\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"4.75\" cy=\"17.5\" r=\"1\" fill=\"currentColor\" stroke=\"none\"/>"
+  },
+  {
+   "name": "sticky-note",
+   "label": "Sticky note",
+   "category": "writing",
+   "tags": [
+    "notes",
+    "reminders",
+    "memo",
+    "scratchpad",
+    "ideas",
+    "jot"
+   ],
+   "body": "<path d=\"M5 4h14a1 1 0 0 1 1 1v9.5L14.5 20H5a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1z\"/><path d=\"M20 14.5h-4.5a1 1 0 0 0-1 1V20\"/>"
+  },
+  {
+   "name": "folder",
+   "label": "Folder",
+   "category": "writing",
+   "tags": [
+    "folder",
+    "files",
+    "archive",
+    "documents",
+    "storage",
+    "general",
+    "misc"
+   ],
+   "body": "<path d=\"M3.5 7V6A1.5 1.5 0 0 1 5 4.5h4l2 2.5h8A1.5 1.5 0 0 1 20.5 8.5V18a1.5 1.5 0 0 1-1.5 1.5H5A1.5 1.5 0 0 1 3.5 18z\"/>"
+  },
+  {
+   "name": "archive",
+   "label": "Archive",
+   "category": "writing",
+   "tags": [
+    "archive",
+    "records",
+    "history",
+    "old",
+    "storage",
+    "backup"
+   ],
+   "body": "<rect x=\"3\" y=\"4\" width=\"18\" height=\"4.5\" rx=\"1\"/><path d=\"M4.5 8.5V19A1.5 1.5 0 0 0 6 20.5h12a1.5 1.5 0 0 0 1.5-1.5V8.5\"/><path d=\"M10 12.5h4\"/>"
+  },
+  {
+   "name": "clipboard",
+   "label": "Clipboard",
+   "category": "writing",
+   "tags": [
+    "forms",
+    "survey",
+    "intake",
+    "checklist",
+    "inspection",
+    "requirements",
+    "specs"
+   ],
+   "body": "<rect x=\"8.5\" y=\"2.5\" width=\"7\" height=\"4\" rx=\"1\"/><path d=\"M15.5 4.5H17a2 2 0 0 1 2 2V19a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6.5a2 2 0 0 1 2-2h1.5\"/><path d=\"M9 12h6\"/><path d=\"M9 15.5h4\"/>"
+  },
+  {
+   "name": "translate",
+   "label": "Translate",
+   "category": "writing",
+   "tags": [
+    "translation",
+    "language",
+    "languages",
+    "spanish",
+    "french",
+    "localization",
+    "learning"
+   ],
+   "body": "<path d=\"M3.5 5.5h9\"/><path d=\"M8 3.5v2\"/><path d=\"M10.5 5.5c-.7 4-3 6.5-6.5 8\"/><path d=\"M5.5 8.5c1 2 2.6 3.6 4.8 4.5\"/><path d=\"M12.5 20.5l4-9.5 4 9.5\"/><path d=\"M13.8 17.5h5.4\"/>"
+  },
+  {
+   "name": "script",
+   "label": "Script",
+   "category": "writing",
+   "tags": [
+    "script",
+    "screenplay",
+    "scroll",
+    "story",
+    "transcript",
+    "lore"
+   ],
+   "body": "<path d=\"M7 4h11a2 2 0 0 1 2 2v1h-4\"/><path d=\"M16 7v11a2 2 0 0 1-4 0v-1H4v1a2 2 0 0 0 2 2h8\"/><path d=\"M7 4a2 2 0 0 0-2 2v11\"/><path d=\"M9 9h4\"/><path d=\"M9 12.5h4\"/>"
+  },
+  {
+   "name": "camera",
+   "label": "Camera",
+   "category": "creative",
+   "tags": [
+    "photography",
+    "photos",
+    "photo",
+    "shoot",
+    "camera",
+    "portfolio"
+   ],
+   "body": "<path d=\"M4.5 7.5H7L8.5 5h7L17 7.5h2.5A1.5 1.5 0 0 1 21 9v9a1.5 1.5 0 0 1-1.5 1.5h-15A1.5 1.5 0 0 1 3 18V9a1.5 1.5 0 0 1 1.5-1.5z\"/><circle cx=\"12\" cy=\"13\" r=\"3.5\"/>"
+  },
+  {
+   "name": "image",
+   "label": "Image",
+   "category": "creative",
+   "tags": [
+    "images",
+    "pictures",
+    "gallery",
+    "assets",
+    "graphics",
+    "moodboard",
+    "visuals"
+   ],
+   "body": "<rect x=\"3\" y=\"4\" width=\"18\" height=\"16\" rx=\"2\"/><circle cx=\"8.5\" cy=\"9.5\" r=\"1.5\"/><path d=\"M3.5 16.5L8 12l4.5 4.5 2.5-2.5 5.5 5.5\"/>"
+  },
+  {
+   "name": "film",
+   "label": "Film",
+   "category": "creative",
+   "tags": [
+    "film",
+    "movie",
+    "cinema",
+    "video",
+    "production",
+    "filmmaking",
+    "documentary"
+   ],
+   "body": "<rect x=\"3\" y=\"3.5\" width=\"18\" height=\"17\" rx=\"2\"/><path d=\"M7.5 3.5v17\"/><path d=\"M16.5 3.5v17\"/><path d=\"M3 8h4.5\"/><path d=\"M3 12h18\"/><path d=\"M3 16h4.5\"/><path d=\"M16.5 8H21\"/><path d=\"M16.5 16H21\"/>"
+  },
+  {
+   "name": "video",
+   "label": "Video",
+   "category": "creative",
+   "tags": [
+    "video",
+    "youtube",
+    "vlog",
+    "recording",
+    "streaming",
+    "content",
+    "creator"
+   ],
+   "body": "<rect x=\"2.5\" y=\"6\" width=\"13\" height=\"12\" rx=\"2\"/><path d=\"M15.5 10.5l6-3.5v10l-6-3.5\"/>"
+  },
+  {
+   "name": "music",
+   "label": "Music",
+   "category": "creative",
+   "tags": [
+    "music",
+    "songs",
+    "band",
+    "album",
+    "playlist",
+    "composing",
+    "production"
+   ],
+   "body": "<path d=\"M9 18V5.5l11-2V16\"/><circle cx=\"6.5\" cy=\"18\" r=\"2.5\"/><circle cx=\"17.5\" cy=\"16\" r=\"2.5\"/>"
+  },
+  {
+   "name": "headphones",
+   "label": "Headphones",
+   "category": "creative",
+   "tags": [
+    "audio",
+    "listening",
+    "podcast",
+    "sound",
+    "mixing",
+    "music",
+    "production"
+   ],
+   "body": "<path d=\"M4 14v-2a8 8 0 0 1 16 0v2\"/><path d=\"M4 14h2a1.5 1.5 0 0 1 1.5 1.5V19A1.5 1.5 0 0 1 6 20.5h-.5A1.5 1.5 0 0 1 4 19z\"/><path d=\"M20 14h-2a1.5 1.5 0 0 0-1.5 1.5V19a1.5 1.5 0 0 0 1.5 1.5h.5A1.5 1.5 0 0 0 20 19z\"/>"
+  },
+  {
+   "name": "microphone",
+   "label": "Microphone",
+   "category": "creative",
+   "tags": [
+    "podcast",
+    "voice",
+    "recording",
+    "interview",
+    "speaking",
+    "singing",
+    "audio"
+   ],
+   "body": "<rect x=\"9\" y=\"3\" width=\"6\" height=\"11\" rx=\"3\"/><path d=\"M5.5 11a6.5 6.5 0 0 0 13 0\"/><path d=\"M12 17.5V21\"/><path d=\"M8.5 21h7\"/>"
+  },
+  {
+   "name": "brush",
+   "label": "Brush",
+   "category": "creative",
+   "tags": [
+    "art",
+    "painting",
+    "illustration",
+    "artwork",
+    "drawing",
+    "artist"
+   ],
+   "body": "<path d=\"M19.5 4.5c-1.5-.5-6 3.5-8.5 6.5l2 2c3-2.5 7-7 6.5-8.5z\"/><path d=\"M11 11c-2 0-3.5 1.3-3.5 3.3 0 1.7-1.3 3.2-3 3.7 3.5 1.5 8.5.7 8.5-3.2 0-.6-.1-1.2-.3-1.7\"/>"
+  },
+  {
+   "name": "palette",
+   "label": "Palette",
+   "category": "creative",
+   "tags": [
+    "design",
+    "colors",
+    "branding",
+    "brand",
+    "identity",
+    "art",
+    "style"
+   ],
+   "body": "<path d=\"M12 3a9 9 0 0 0 0 18c1.2 0 2-.8 2-1.8 0-.5-.2-.9-.5-1.3-.3-.3-.5-.8-.5-1.3 0-1 .8-1.8 1.8-1.8H17a4 4 0 0 0 4-4c0-4.4-4-7.8-9-7.8z\"/><circle cx=\"7.5\" cy=\"11\" r=\"1\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"10\" cy=\"7.3\" r=\"1\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"14.5\" cy=\"7.3\" r=\"1\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"17\" cy=\"10.5\" r=\"1\" fill=\"currentColor\" stroke=\"none\"/>"
+  },
+  {
+   "name": "shapes",
+   "label": "Shapes",
+   "category": "creative",
+   "tags": [
+    "graphic",
+    "design",
+    "shapes",
+    "geometry",
+    "logo",
+    "design",
+    "kids",
+    "crafts"
+   ],
+   "body": "<path d=\"M7.5 3.5l4 7h-8z\"/><circle cx=\"16.5\" cy=\"7\" r=\"3.5\"/><rect x=\"8.5\" y=\"13.5\" width=\"7\" height=\"7\" rx=\"1.5\"/>"
+  },
+  {
+   "name": "pen-tool",
+   "label": "Pen tool",
+   "category": "creative",
+   "tags": [
+    "vector",
+    "illustrator",
+    "logo",
+    "design",
+    "figma",
+    "bezier",
+    "graphic"
+   ],
+   "body": "<path d=\"M12 2.5L6.5 10l2.5 7.5h6l2.5-7.5z\"/><path d=\"M12 2.5v7\"/><path d=\"M9 20.5h6\"/><circle cx=\"12\" cy=\"11\" r=\"1.5\"/>"
+  },
+  {
+   "name": "layers",
+   "label": "Layers",
+   "category": "creative",
+   "tags": [
+    "layers",
+    "stack",
+    "design",
+    "files",
+    "components",
+    "mockups"
+   ],
+   "body": "<path d=\"M12 3.5l9 4.5-9 4.5L3 8z\"/><path d=\"M3 12l9 4.5 9-4.5\"/><path d=\"M3 16.5l9 4.5 9-4.5\"/>"
+  },
+  {
+   "name": "wand",
+   "label": "Wand",
+   "category": "creative",
+   "tags": [
+    "magic",
+    "effects",
+    "editing",
+    "retouch",
+    "enhance",
+    "tricks"
+   ],
+   "body": "<path d=\"M4 20L15 9\"/><path d=\"M13.5 7.5l3 3\"/><path d=\"M18 3v3\"/><path d=\"M16.5 4.5h3\"/><path d=\"M20 9.5v2\"/><path d=\"M19 10.5h2\"/><path d=\"M8 4v2\"/><path d=\"M7 5h2\"/>"
+  },
+  {
+   "name": "printer",
+   "label": "Printer",
+   "category": "creative",
+   "tags": [
+    "print",
+    "printing",
+    "flyers",
+    "posters",
+    "merch",
+    "stationery"
+   ],
+   "body": "<path d=\"M7 8V3.5h10V8\"/><path d=\"M7 16.5H5A1.5 1.5 0 0 1 3.5 15v-5.5A1.5 1.5 0 0 1 5 8h14a1.5 1.5 0 0 1 1.5 1.5V15a1.5 1.5 0 0 1-1.5 1.5h-2\"/><path d=\"M7 13.5h10v7H7z\"/>"
+  },
+  {
+   "name": "aperture",
+   "label": "Aperture",
+   "category": "creative",
+   "tags": [
+    "lens",
+    "photography",
+    "optics",
+    "cinematography",
+    "focus"
+   ],
+   "body": "<circle cx=\"12\" cy=\"12\" r=\"9\"/><path d=\"M14.3 3.3L9.5 11.5\"/><path d=\"M20.6 9.5L11 9.6\"/><path d=\"M19 17.7l-4.9-8.2\"/><path d=\"M9.7 20.7l4.8-8.2\"/><path d=\"M3.4 14.5l9.6-.1\"/><path d=\"M5 6.3l4.9 8.2\"/>"
+  },
+  {
+   "name": "graduation-cap",
+   "label": "Graduation cap",
+   "category": "school",
+   "tags": [
+    "school",
+    "college",
+    "university",
+    "degree",
+    "education",
+    "class",
+    "course",
+    "graduation"
+   ],
+   "body": "<path d=\"M12 4L2.5 9 12 14l9.5-5z\"/><path d=\"M6.5 11.2v4.3c1.5 1.5 3.5 2.5 5.5 2.5s4-1 5.5-2.5v-4.3\"/><path d=\"M21.5 9v5\"/>"
+  },
+  {
+   "name": "backpack",
+   "label": "Backpack",
+   "category": "school",
+   "tags": [
+    "school",
+    "kids",
+    "homework",
+    "students",
+    "class",
+    "semester",
+    "back",
+    "to",
+    "school"
+   ],
+   "body": "<path d=\"M6 10a6 6 0 0 1 12 0v9a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 6 19z\"/><path d=\"M9.5 4.5V4a1 1 0 0 1 1-1h3a1 1 0 0 1 1 1v.5\"/><path d=\"M9 20.5V16a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v4.5\"/><path d=\"M9.5 11h5\"/>"
+  },
+  {
+   "name": "apple",
+   "label": "Apple",
+   "category": "school",
+   "tags": [
+    "teacher",
+    "teaching",
+    "nutrition",
+    "fruit",
+    "healthy",
+    "lessons",
+    "classroom"
+   ],
+   "body": "<path d=\"M12 7.5c-1.5-1-3-1.3-4.5-.8C5 7.5 4 10 4.5 13c.6 4 3.2 7.5 5.5 7.5 1 0 1.3-.5 2-.5s1 .5 2 .5c2.3 0 4.9-3.5 5.5-7.5.5-3-.5-5.5-3-6.3-1.5-.5-3-.2-4.5.8z\"/><path d=\"M12 7.5c0-2 .8-3.5 2.5-4.5\"/>"
+  },
+  {
+   "name": "ruler",
+   "label": "Ruler",
+   "category": "school",
+   "tags": [
+    "math",
+    "geometry",
+    "measurements",
+    "architecture",
+    "drafting",
+    "engineering"
+   ],
+   "body": "<path d=\"M3.7 15.6L15.6 3.7a1 1 0 0 1 1.4 0l3.3 3.3a1 1 0 0 1 0 1.4L8.4 20.3a1 1 0 0 1-1.4 0L3.7 17a1 1 0 0 1 0-1.4z\"/><path d=\"M7.5 11.8l1.8 1.8\"/><path d=\"M10.3 9l1.2 1.2\"/><path d=\"M13.1 6.2l1.8 1.8\"/>"
+  },
+  {
+   "name": "flask",
+   "label": "Flask",
+   "category": "school",
+   "tags": [
+    "chemistry",
+    "science",
+    "lab",
+    "experiment",
+    "research",
+    "biology"
+   ],
+   "body": "<path d=\"M9.5 3h5\"/><path d=\"M10 3v6l-5.2 9.2A1.5 1.5 0 0 0 6.1 20.5h11.8a1.5 1.5 0 0 0 1.3-2.3L14 9V3\"/><path d=\"M7 14.5h10\"/>"
+  },
+  {
+   "name": "atom",
+   "label": "Atom",
+   "category": "school",
+   "tags": [
+    "physics",
+    "science",
+    "atom",
+    "quantum",
+    "nuclear",
+    "stem"
+   ],
+   "body": "<ellipse cx=\"12\" cy=\"12\" rx=\"9.5\" ry=\"3.8\"/><ellipse cx=\"12\" cy=\"12\" rx=\"9.5\" ry=\"3.8\" transform=\"rotate(60 12 12)\"/><ellipse cx=\"12\" cy=\"12\" rx=\"9.5\" ry=\"3.8\" transform=\"rotate(120 12 12)\"/><circle cx=\"12\" cy=\"12\" r=\"1.4\" fill=\"currentColor\" stroke=\"none\"/>"
+  },
+  {
+   "name": "microscope",
+   "label": "Microscope",
+   "category": "school",
+   "tags": [
+    "biology",
+    "lab",
+    "medicine",
+    "research",
+    "cells",
+    "science"
+   ],
+   "body": "<g transform=\"rotate(-30 10 7)\"><rect x=\"8.5\" y=\"2.5\" width=\"3\" height=\"8.5\" rx=\"1\"/></g><path d=\"M5 20.5h14\"/><path d=\"M13.5 9.5a5.5 5.5 0 0 1 1 10\"/><path d=\"M7.5 15h6\"/><path d=\"M10 15v-3\"/><path d=\"M10.5 20.5V17\"/>"
+  },
+  {
+   "name": "certificate",
+   "label": "Certificate",
+   "category": "school",
+   "tags": [
+    "certification",
+    "certificate",
+    "award",
+    "credential",
+    "license",
+    "exam",
+    "badge"
+   ],
+   "body": "<circle cx=\"12\" cy=\"9\" r=\"5.5\"/><path d=\"M8.5 13.3L7 21l5-2.5 5 2.5-1.5-7.7\"/>"
+  },
+  {
+   "name": "chalkboard",
+   "label": "Chalkboard",
+   "category": "school",
+   "tags": [
+    "teaching",
+    "lesson",
+    "plans",
+    "lecture",
+    "tutoring",
+    "classroom",
+    "curriculum"
+   ],
+   "body": "<rect x=\"3\" y=\"4\" width=\"18\" height=\"12\" rx=\"1.5\"/><path d=\"M7 20l2-4\"/><path d=\"M17 20l-2-4\"/><path d=\"M7 8h6\"/><path d=\"M7 11.5h4\"/>"
+  },
+  {
+   "name": "dna",
+   "label": "Dna",
+   "category": "school",
+   "tags": [
+    "genetics",
+    "biology",
+    "genealogy",
+    "ancestry",
+    "family",
+    "tree",
+    "heritage",
+    "biotech"
+   ],
+   "body": "<path d=\"M7 3c0 4.5 10 7.5 10 12 0 2.5-1.5 4.5-3 6\"/><path d=\"M17 3c0 4.5-10 7.5-10 12 0 2.5 1.5 4.5 3 6\"/><path d=\"M8.5 6.5h7\"/><path d=\"M8.8 17h6.4\"/>"
+  },
+  {
+   "name": "telescope",
+   "label": "Telescope",
+   "category": "school",
+   "tags": [
+    "astronomy",
+    "space",
+    "stars",
+    "stargazing",
+    "observatory",
+    "cosmos"
+   ],
+   "body": "<path d=\"M3.5 13.5l12.5-6.5 1.9 3.6-12.5 6.5z\"/><path d=\"M16 7l1.5-.8 1.9 3.6-1.5.8\"/><path d=\"M11 14.5l-3 7\"/><path d=\"M12 14l3.5 7\"/>"
+  },
+  {
+   "name": "books",
+   "label": "Books",
+   "category": "school",
+   "tags": [
+    "library",
+    "books",
+    "study",
+    "reading",
+    "list",
+    "textbooks",
+    "research"
+   ],
+   "body": "<rect x=\"4\" y=\"4\" width=\"4\" height=\"16\" rx=\"1\"/><rect x=\"9\" y=\"4\" width=\"4\" height=\"16\" rx=\"1\"/><path d=\"M14.5 6.2l3.8-1 3.9 14.5-3.8 1z\"/>"
+  },
+  {
+   "name": "school",
+   "label": "School",
+   "category": "school",
+   "tags": [
+    "school",
+    "building",
+    "pta",
+    "district",
+    "kindergarten",
+    "elementary",
+    "campus"
+   ],
+   "body": "<path d=\"M3 10l9-6 9 6\"/><path d=\"M5 9v11h14V9\"/><path d=\"M10 20v-5h4v5\"/><path d=\"M2.5 20h19\"/><circle cx=\"12\" cy=\"10.5\" r=\"1.5\"/>"
+  },
+  {
+   "name": "house",
+   "label": "House",
+   "category": "home",
+   "tags": [
+    "home",
+    "house",
+    "household",
+    "family",
+    "real",
+    "estate",
+    "property",
+    "moving",
+    "renovation"
+   ],
+   "body": "<path d=\"M3.5 10.5L12 3.5l8.5 7\"/><path d=\"M5.5 9v10A1.5 1.5 0 0 0 7 20.5h10a1.5 1.5 0 0 0 1.5-1.5V9\"/><path d=\"M10 20.5V15h4v5.5\"/>"
+  },
+  {
+   "name": "sofa",
+   "label": "Sofa",
+   "category": "home",
+   "tags": [
+    "furniture",
+    "interior",
+    "decor",
+    "living",
+    "room",
+    "apartment",
+    "design"
+   ],
+   "body": "<path d=\"M5 11V8a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v3\"/><path d=\"M3 13a2 2 0 0 1 4 0v1h10v-1a2 2 0 0 1 4 0v4.5a1.5 1.5 0 0 1-1.5 1.5h-15A1.5 1.5 0 0 1 3 17.5z\"/><path d=\"M5.5 19v1.5\"/><path d=\"M18.5 19v1.5\"/>"
+  },
+  {
+   "name": "bed",
+   "label": "Bed",
+   "category": "home",
+   "tags": [
+    "bedroom",
+    "sleep",
+    "rental",
+    "airbnb",
+    "hotel",
+    "guest",
+    "room"
+   ],
+   "body": "<path d=\"M3 5v15\"/><path d=\"M3 15.5h18\"/><path d=\"M21 20v-6.5a2.5 2.5 0 0 0-2.5-2.5H11v4.5\"/><circle cx=\"7\" cy=\"11\" r=\"2\"/>"
+  },
+  {
+   "name": "plant",
+   "label": "Plant",
+   "category": "home",
+   "tags": [
+    "plants",
+    "garden",
+    "gardening",
+    "houseplants",
+    "growing",
+    "nature"
+   ],
+   "body": "<path d=\"M7 14h10l-1.2 6.5H8.2z\"/><path d=\"M12 14V9\"/><path d=\"M12 9c0-3 2-5 5.5-5 0 3.5-2 5-5.5 5z\"/><path d=\"M12 11.5c0-2.5-1.8-4-4.5-4 0 2.7 1.8 4 4.5 4z\"/>"
+  },
+  {
+   "name": "cooking-pot",
+   "label": "Cooking pot",
+   "category": "home",
+   "tags": [
+    "cooking",
+    "meal",
+    "prep",
+    "dinner",
+    "kitchen",
+    "soup",
+    "batch",
+    "cooking"
+   ],
+   "body": "<path d=\"M4 10h16v7.5a3 3 0 0 1-3 3H7a3 3 0 0 1-3-3z\"/><path d=\"M2.5 10h19\"/><path d=\"M9 7h6\"/><path d=\"M12 7V5.5\"/><path d=\"M2 13.5h2\"/><path d=\"M20 13.5h2\"/>"
+  },
+  {
+   "name": "wrench",
+   "label": "Wrench",
+   "category": "home",
+   "tags": [
+    "repair",
+    "maintenance",
+    "fix",
+    "diy",
+    "tools",
+    "mechanic",
+    "handyman"
+   ],
+   "body": "<g transform=\"rotate(45 12 12)\"><path d=\"M9.5 3.6A4.5 4.5 0 0 0 10.5 11.5v8a1.5 1.5 0 0 0 3 0v-8a4.5 4.5 0 0 0 1-7.9V6.5L12 8 9.5 6.5z\"/></g>"
+  },
+  {
+   "name": "hammer",
+   "label": "Hammer",
+   "category": "home",
+   "tags": [
+    "construction",
+    "renovation",
+    "building",
+    "contractor",
+    "diy",
+    "remodel"
+   ],
+   "body": "<path d=\"M13 7.5l-9 9a1.5 1.5 0 0 0 2 2l9-9\"/><path d=\"M11 5.5l2.5-2.5h3l4 4-2 2-1.5-1.5-2.5 2.5-3.5-3.5z\"/>"
+  },
+  {
+   "name": "paint-roller",
+   "label": "Paint roller",
+   "category": "home",
+   "tags": [
+    "painting",
+    "renovation",
+    "remodel",
+    "walls",
+    "interior",
+    "decorating"
+   ],
+   "body": "<rect x=\"4\" y=\"3\" width=\"14\" height=\"5\" rx=\"1.5\"/><path d=\"M18 5.5h1.5a1 1 0 0 1 1 1V10a1 1 0 0 1-1 1H12v3.5\"/><rect x=\"10.5\" y=\"14.5\" width=\"3\" height=\"6.5\" rx=\"1\"/>"
+  },
+  {
+   "name": "lamp",
+   "label": "Lamp",
+   "category": "home",
+   "tags": [
+    "lighting",
+    "interior",
+    "lamp",
+    "cozy",
+    "decor",
+    "room"
+   ],
+   "body": "<path d=\"M8 3h8l3 8H5z\"/><path d=\"M12 11v8\"/><path d=\"M8 20.5h8\"/>"
+  },
+  {
+   "name": "paw",
+   "label": "Paw",
+   "category": "home",
+   "tags": [
+    "pets",
+    "pet",
+    "dog",
+    "cat",
+    "vet",
+    "animals",
+    "puppy",
+    "rescue"
+   ],
+   "body": "<path d=\"M12 12.5c-2.5 0-5 3-5 5.2 0 1.5 1.2 2.3 2.5 2.3 1 0 1.6-.5 2.5-.5s1.5.5 2.5.5c1.3 0 2.5-.8 2.5-2.3 0-2.2-2.5-5.2-5-5.2z\"/><circle cx=\"5.5\" cy=\"10.5\" r=\"1.8\"/><circle cx=\"9\" cy=\"6.5\" r=\"2\"/><circle cx=\"15\" cy=\"6.5\" r=\"2\"/><circle cx=\"18.5\" cy=\"10.5\" r=\"1.8\"/>"
+  },
+  {
+   "name": "car",
+   "label": "Car",
+   "category": "home",
+   "tags": [
+    "car",
+    "auto",
+    "vehicle",
+    "commute",
+    "road",
+    "trip",
+    "garage",
+    "maintenance"
+   ],
+   "body": "<path d=\"M5 16.5H3.5a1 1 0 0 1-1-1v-3c0-.8.5-1.4 1.2-1.6L6 10.3l1.8-3.6A1.5 1.5 0 0 1 9.1 6h5.8a1.5 1.5 0 0 1 1.3.7l1.8 3.6 2.3.6c.7.2 1.2.8 1.2 1.6v3a1 1 0 0 1-1 1H19\"/><path d=\"M9 16.5h6\"/><path d=\"M6 10.3h12\"/><circle cx=\"7\" cy=\"16.5\" r=\"2\"/><circle cx=\"17\" cy=\"16.5\" r=\"2\"/>"
+  },
+  {
+   "name": "toolbox",
+   "label": "Toolbox",
+   "category": "home",
+   "tags": [
+    "tools",
+    "toolkit",
+    "maintenance",
+    "projects",
+    "workshop",
+    "supplies"
+   ],
+   "body": "<rect x=\"3\" y=\"8.5\" width=\"18\" height=\"11.5\" rx=\"1.5\"/><path d=\"M8.5 8.5V6A1.5 1.5 0 0 1 10 4.5h4A1.5 1.5 0 0 1 15.5 6v2.5\"/><path d=\"M3 13h18\"/><path d=\"M8 12v2\"/><path d=\"M16 12v2\"/>"
+  },
+  {
+   "name": "baby",
+   "label": "Baby",
+   "category": "home",
+   "tags": [
+    "baby",
+    "parenting",
+    "kids",
+    "children",
+    "family",
+    "newborn",
+    "pregnancy"
+   ],
+   "body": "<circle cx=\"12\" cy=\"12\" r=\"9\"/><circle cx=\"9\" cy=\"11\" r=\"1\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"15\" cy=\"11\" r=\"1\" fill=\"currentColor\" stroke=\"none\"/><path d=\"M9.5 14.5c1.5 1.3 3.5 1.3 5 0\"/><path d=\"M12 3c-1 1.3-.5 2.8 1 3\"/>"
+  },
+  {
+   "name": "ring",
+   "label": "Ring",
+   "category": "home",
+   "tags": [
+    "wedding",
+    "engagement",
+    "marriage",
+    "anniversary",
+    "jewelry"
+   ],
+   "body": "<circle cx=\"12\" cy=\"14.5\" r=\"6\"/><path d=\"M9.5 4h5l1.5 2.5-4 3.5-4-3.5z\"/>"
+  },
+  {
+   "name": "heart-pulse",
+   "label": "Heart pulse",
+   "category": "health",
+   "tags": [
+    "health",
+    "medical",
+    "wellness",
+    "doctor",
+    "heart",
+    "care",
+    "hospital"
+   ],
+   "body": "<path d=\"M12 20.5C7 17 3.5 13.8 3.5 9.5A4.5 4.5 0 0 1 8 5c1.6 0 3 .8 4 2.2C13 5.8 14.4 5 16 5a4.5 4.5 0 0 1 4.5 4.5c0 4.3-3.5 7.5-8.5 11z\"/><path d=\"M3.5 12H8l1.5-2.5 2.5 5 2-3.5h6.5\"/>"
+  },
+  {
+   "name": "dumbbell",
+   "label": "Dumbbell",
+   "category": "health",
+   "tags": [
+    "gym",
+    "workout",
+    "fitness",
+    "training",
+    "exercise",
+    "strength",
+    "lifting"
+   ],
+   "body": "<rect x=\"5\" y=\"6.5\" width=\"3\" height=\"11\" rx=\"1\"/><rect x=\"16\" y=\"6.5\" width=\"3\" height=\"11\" rx=\"1\"/><path d=\"M8 12h8\"/><path d=\"M2.5 10v4\"/><path d=\"M21.5 10v4\"/>"
+  },
+  {
+   "name": "pill",
+   "label": "Pill",
+   "category": "health",
+   "tags": [
+    "medication",
+    "pharmacy",
+    "prescriptions",
+    "supplements",
+    "medicine"
+   ],
+   "body": "<g transform=\"rotate(-45 12 12)\"><rect x=\"3.5\" y=\"8.5\" width=\"17\" height=\"7\" rx=\"3.5\"/><path d=\"M12 8.5v7\"/></g>"
+  },
+  {
+   "name": "stethoscope",
+   "label": "Stethoscope",
+   "category": "health",
+   "tags": [
+    "doctor",
+    "clinic",
+    "medical",
+    "appointments",
+    "healthcare",
+    "nurse"
+   ],
+   "body": "<path d=\"M5 3.5V8a4.5 4.5 0 0 0 9 0V3.5\"/><path d=\"M5 3.5h1.5\"/><path d=\"M14 3.5h-1.5\"/><path d=\"M9.5 12.5v2.5a4.5 4.5 0 0 0 9 0v-2\"/><circle cx=\"18.5\" cy=\"11\" r=\"2\"/>"
+  },
+  {
+   "name": "activity",
+   "label": "Activity",
+   "category": "health",
+   "tags": [
+    "running",
+    "cardio",
+    "tracking",
+    "heart",
+    "rate",
+    "steps",
+    "marathon",
+    "training",
+    "plan"
+   ],
+   "body": "<path d=\"M3 12h4l2.5-6 5 12 2.5-6H21\"/>"
+  },
+  {
+   "name": "leaf",
+   "label": "Leaf",
+   "category": "health",
+   "tags": [
+    "nature",
+    "eco",
+    "sustainability",
+    "green",
+    "vegan",
+    "organic",
+    "environment",
+    "wellness"
+   ],
+   "body": "<path d=\"M5.5 19.5C4 11 9 4.5 19.5 4.5c0 10.5-6.5 15.5-14 15z\"/><path d=\"M4 21l9-9\"/>"
+  },
+  {
+   "name": "bicycle",
+   "label": "Bicycle",
+   "category": "health",
+   "tags": [
+    "cycling",
+    "bike",
+    "biking",
+    "commute",
+    "triathlon"
+   ],
+   "body": "<circle cx=\"6\" cy=\"16\" r=\"3.5\"/><circle cx=\"18\" cy=\"16\" r=\"3.5\"/><path d=\"M6 16l3.5-7h6L18 16\"/><path d=\"M12 16L9 9\"/><path d=\"M6 16h6l3.5-7\"/><path d=\"M8 9h3\"/><path d=\"M15.5 9l-.8-2.5H17\"/>"
+  },
+  {
+   "name": "drop",
+   "label": "Drop",
+   "category": "health",
+   "tags": [
+    "water",
+    "hydration",
+    "skincare",
+    "blood",
+    "donation",
+    "plumbing"
+   ],
+   "body": "<path d=\"M12 3.5c3 3.5 6.5 7.3 6.5 11a6.5 6.5 0 0 1-13 0c0-3.7 3.5-7.5 6.5-11z\"/>"
+  },
+  {
+   "name": "moon",
+   "label": "Moon",
+   "category": "health",
+   "tags": [
+    "sleep",
+    "night",
+    "rest",
+    "bedtime",
+    "meditation",
+    "dreams"
+   ],
+   "body": "<path d=\"M20 14.5A8.5 8.5 0 0 1 9.5 4a8.5 8.5 0 1 0 10.5 10.5z\"/>"
+  },
+  {
+   "name": "first-aid",
+   "label": "First aid",
+   "category": "health",
+   "tags": [
+    "first",
+    "aid",
+    "emergency",
+    "safety",
+    "medical",
+    "kit",
+    "care"
+   ],
+   "body": "<rect x=\"3\" y=\"6.5\" width=\"18\" height=\"13.5\" rx=\"2\"/><path d=\"M8.5 6.5V5a1 1 0 0 1 1-1h5a1 1 0 0 1 1 1v1.5\"/><path d=\"M12 10.5v6\"/><path d=\"M9 13.5h6\"/>"
+  },
+  {
+   "name": "bowl",
+   "label": "Bowl",
+   "category": "health",
+   "tags": [
+    "meal",
+    "plan",
+    "diet",
+    "nutrition",
+    "salad",
+    "recipes",
+    "healthy",
+    "eating",
+    "macros"
+   ],
+   "body": "<path d=\"M3.5 11.5h17c0 4.7-3.8 8.5-8.5 8.5s-8.5-3.8-8.5-8.5z\"/><path d=\"M8 11.5c0-3 1.5-5 4-5.5\"/><path d=\"M12.5 11.5c.3-3 2-5 5-5.5\"/><path d=\"M10 6c0-1.4.9-2.5 2-3\"/>"
+  },
+  {
+   "name": "meditate",
+   "label": "Meditate",
+   "category": "health",
+   "tags": [
+    "meditation",
+    "mindfulness",
+    "yoga",
+    "mental",
+    "health",
+    "calm",
+    "therapy"
+   ],
+   "body": "<circle cx=\"12\" cy=\"5.5\" r=\"2\"/><path d=\"M12 8.5V13\"/><path d=\"M6.5 11l5.5 2 5.5-2\"/><path d=\"M5 18c2.5 0 4.5-2.5 7-5 2.5 2.5 4.5 5 7 5\"/><path d=\"M7.5 20h9\"/>"
+  },
+  {
+   "name": "plane",
+   "label": "Plane",
+   "category": "travel",
+   "tags": [
+    "travel",
+    "trip",
+    "flights",
+    "vacation",
+    "holiday",
+    "itinerary",
+    "abroad"
+   ],
+   "body": "<path d=\"M12 2.5c.8 0 1.5.7 1.5 1.5v5.5l7 4v2l-7-2v4l2 1.5v1.5L12 19.5l-3.5 1V19l2-1.5v-4l-7 2v-2l7-4V4c0-.8.7-1.5 1.5-1.5z\"/>"
+  },
+  {
+   "name": "map",
+   "label": "Map",
+   "category": "travel",
+   "tags": [
+    "map",
+    "maps",
+    "route",
+    "planning",
+    "trip",
+    "local",
+    "guide",
+    "places"
+   ],
+   "body": "<path d=\"M3.5 6.5v13l5.5-2.5 6 2.5 5.5-2.5v-13L15 6.5 9 4z\"/><path d=\"M9 4v13\"/><path d=\"M15 6.5v13\"/>"
+  },
+  {
+   "name": "map-pin",
+   "label": "Map pin",
+   "category": "travel",
+   "tags": [
+    "location",
+    "local",
+    "place",
+    "venue",
+    "address",
+    "neighborhood",
+    "city"
+   ],
+   "body": "<path d=\"M12 21s-6.5-5.6-6.5-11a6.5 6.5 0 0 1 13 0c0 5.4-6.5 11-6.5 11z\"/><circle cx=\"12\" cy=\"10\" r=\"2.5\"/>"
+  },
+  {
+   "name": "suitcase",
+   "label": "Suitcase",
+   "category": "travel",
+   "tags": [
+    "luggage",
+    "packing",
+    "trip",
+    "business",
+    "travel",
+    "relocation"
+   ],
+   "body": "<rect x=\"4\" y=\"7\" width=\"16\" height=\"12.5\" rx=\"2\"/><path d=\"M9 7V5a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v2\"/><path d=\"M9 7v12.5\"/><path d=\"M15 7v12.5\"/><path d=\"M7.5 19.5V21\"/><path d=\"M16.5 19.5V21\"/>"
+  },
+  {
+   "name": "mountain",
+   "label": "Mountain",
+   "category": "travel",
+   "tags": [
+    "hiking",
+    "outdoors",
+    "climbing",
+    "adventure",
+    "nature",
+    "trail"
+   ],
+   "body": "<path d=\"M2.5 19.5l6.5-11 4 6.5 2.5-3.5 6 8z\"/><path d=\"M7 11.9l2 1 1.6-1\"/>"
+  },
+  {
+   "name": "tent",
+   "label": "Tent",
+   "category": "travel",
+   "tags": [
+    "camping",
+    "outdoors",
+    "festival",
+    "retreat",
+    "scouts"
+   ],
+   "body": "<path d=\"M4 20L12 4l8 16\"/><path d=\"M2.5 20h19\"/><path d=\"M12 12.5L9.5 20\"/><path d=\"M12 12.5l2.5 7.5\"/>"
+  },
+  {
+   "name": "sun",
+   "label": "Sun",
+   "category": "travel",
+   "tags": [
+    "summer",
+    "weather",
+    "sunny",
+    "beach",
+    "holiday",
+    "solar",
+    "daylight"
+   ],
+   "body": "<circle cx=\"12\" cy=\"12\" r=\"4\"/><path d=\"M12 2.5v2\"/><path d=\"M12 19.5v2\"/><path d=\"M2.5 12h2\"/><path d=\"M19.5 12h2\"/><path d=\"M5.3 5.3l1.4 1.4\"/><path d=\"M17.3 17.3l1.4 1.4\"/><path d=\"M5.3 18.7l1.4-1.4\"/><path d=\"M17.3 6.7l1.4-1.4\"/>"
+  },
+  {
+   "name": "umbrella",
+   "label": "Umbrella",
+   "category": "travel",
+   "tags": [
+    "weather",
+    "rain",
+    "insurance",
+    "protection",
+    "beach",
+    "cover"
+   ],
+   "body": "<path d=\"M3 12a9 9 0 0 1 18 0z\"/><path d=\"M12 12v6.5a2 2 0 0 1-4 0\"/><path d=\"M12 3v.5\"/>"
+  },
+  {
+   "name": "anchor",
+   "label": "Anchor",
+   "category": "travel",
+   "tags": [
+    "boating",
+    "sailing",
+    "marine",
+    "nautical",
+    "cruise",
+    "harbor"
+   ],
+   "body": "<circle cx=\"12\" cy=\"5.5\" r=\"2\"/><path d=\"M12 7.5v13\"/><path d=\"M8.5 11h7\"/><path d=\"M4.5 13.5a7.5 7.5 0 0 0 15 0\"/><path d=\"M3 14.5l1.5-1.5 1.5 1.5\"/><path d=\"M18 14.5l1.5-1.5 1.5 1.5\"/>"
+  },
+  {
+   "name": "train",
+   "label": "Train",
+   "category": "travel",
+   "tags": [
+    "train",
+    "rail",
+    "commute",
+    "transit",
+    "europe",
+    "interrail"
+   ],
+   "body": "<rect x=\"5.5\" y=\"3\" width=\"13\" height=\"14\" rx=\"3\"/><path d=\"M5.5 11h13\"/><path d=\"M9 20.5l1.5-3.5\"/><path d=\"M15 20.5L13.5 17\"/><path d=\"M10 6.5h4\"/><circle cx=\"9\" cy=\"14\" r=\"1\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"15\" cy=\"14\" r=\"1\" fill=\"currentColor\" stroke=\"none\"/>"
+  },
+  {
+   "name": "tree",
+   "label": "Tree",
+   "category": "travel",
+   "tags": [
+    "forest",
+    "trees",
+    "nature",
+    "park",
+    "christmas",
+    "tree",
+    "outdoors"
+   ],
+   "body": "<path d=\"M12 21v-4.5\"/><path d=\"M12 3l6 8h-2.5l3.5 5.5h-14L8.5 11H6z\"/>"
+  },
+  {
+   "name": "waves",
+   "label": "Waves",
+   "category": "travel",
+   "tags": [
+    "ocean",
+    "beach",
+    "surf",
+    "sea",
+    "swimming",
+    "coast",
+    "lake"
+   ],
+   "body": "<path d=\"M2.5 9c2 0 2.5-2 4.75-2S9.5 9 12 9s2.5-2 4.75-2S19 9 21.5 9\"/><path d=\"M2.5 15c2 0 2.5-2 4.75-2S9.5 15 12 15s2.5-2 4.75-2S19 15 21.5 15\"/>"
+  },
+  {
+   "name": "passport",
+   "label": "Passport",
+   "category": "travel",
+   "tags": [
+    "passport",
+    "visa",
+    "immigration",
+    "international",
+    "documents"
+   ],
+   "body": "<rect x=\"5\" y=\"3\" width=\"14\" height=\"18\" rx=\"2\"/><circle cx=\"12\" cy=\"10.5\" r=\"3.5\"/><path d=\"M8.5 10.5h7\"/><path d=\"M9 17.5h6\"/>"
+  },
+  {
+   "name": "sailboat",
+   "label": "Sailboat",
+   "category": "travel",
+   "tags": [
+    "sailing",
+    "boat",
+    "yacht",
+    "regatta",
+    "lake",
+    "marina"
+   ],
+   "body": "<path d=\"M12 3v12.5\"/><path d=\"M12 3l6.5 10H12\"/><path d=\"M10 6.5L5.5 13H10\"/><path d=\"M3 16h18l-2 4H5z\"/>"
+  },
+  {
+   "name": "coffee",
+   "label": "Coffee",
+   "category": "food",
+   "tags": [
+    "coffee",
+    "cafe",
+    "morning",
+    "routine",
+    "barista",
+    "coffee",
+    "shop"
+   ],
+   "body": "<path d=\"M4.5 8.5h12v6a5 5 0 0 1-5 5h-2a5 5 0 0 1-5-5z\"/><path d=\"M16.5 10H18a2.5 2.5 0 0 1 0 5h-1.8\"/><path d=\"M8.5 3c-.8 1 .8 2 0 3\"/><path d=\"M12.5 3c-.8 1 .8 2 0 3\"/>"
+  },
+  {
+   "name": "utensils",
+   "label": "Utensils",
+   "category": "food",
+   "tags": [
+    "restaurant",
+    "food",
+    "dining",
+    "menu",
+    "meals",
+    "recipes",
+    "eating",
+    "out"
+   ],
+   "body": "<path d=\"M7 3v5.5a2 2 0 0 0 4 0V3\"/><path d=\"M9 3v18\"/><path d=\"M17 21V3c-2 1.5-3 4-3 7s1 3.5 3 3.5\"/>"
+  },
+  {
+   "name": "chef-hat",
+   "label": "Chef hat",
+   "category": "food",
+   "tags": [
+    "chef",
+    "cooking",
+    "recipes",
+    "culinary",
+    "kitchen",
+    "catering",
+    "bakery"
+   ],
+   "body": "<path d=\"M7 14.5c-2.2 0-4-1.8-4-4s1.8-4 4-4c.3 0 .6 0 .8.1A4.5 4.5 0 0 1 12 3.5a4.5 4.5 0 0 1 4.2 3.1c.3-.1.5-.1.8-.1 2.2 0 4 1.8 4 4s-1.8 4-4 4V20H7z\"/><path d=\"M7 17h10\"/>"
+  },
+  {
+   "name": "wine",
+   "label": "Wine",
+   "category": "food",
+   "tags": [
+    "wine",
+    "bar",
+    "drinks",
+    "tasting",
+    "cocktails",
+    "winery",
+    "sommelier"
+   ],
+   "body": "<path d=\"M8 3h8c0 4.5-.5 8.5-4 8.5S8 7.5 8 3z\"/><path d=\"M12 11.5V20\"/><path d=\"M8.5 20.5h7\"/><path d=\"M8.2 6.5h7.6\"/>"
+  },
+  {
+   "name": "pizza",
+   "label": "Pizza",
+   "category": "food",
+   "tags": [
+    "pizza",
+    "takeout",
+    "party",
+    "food",
+    "restaurant"
+   ],
+   "body": "<path d=\"M3.5 6.5c5.5-4 11.5-4 17 0L12 21z\"/><path d=\"M5.5 9.5c4-2.6 9-2.6 13 0\"/><circle cx=\"10\" cy=\"12.5\" r=\"1.1\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"14\" cy=\"13.5\" r=\"1.1\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"12\" cy=\"16.5\" r=\"1.1\" fill=\"currentColor\" stroke=\"none\"/>"
+  },
+  {
+   "name": "cake",
+   "label": "Cake",
+   "category": "food",
+   "tags": [
+    "birthday",
+    "party",
+    "celebration",
+    "bakery",
+    "baking",
+    "dessert"
+   ],
+   "body": "<path d=\"M4 20.5V14a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v6.5\"/><path d=\"M2.5 20.5h19\"/><path d=\"M4 15.5c1.3 0 1.3 1.5 2.7 1.5s1.3-1.5 2.6-1.5 1.4 1.5 2.7 1.5 1.3-1.5 2.7-1.5 1.3 1.5 2.6 1.5S20 15.5 20 15.5\"/><path d=\"M8 12V9.5\"/><path d=\"M12 12V9.5\"/><path d=\"M16 12V9.5\"/><circle cx=\"8\" cy=\"7\" r=\"0.9\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"12\" cy=\"7\" r=\"0.9\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"16\" cy=\"7\" r=\"0.9\" fill=\"currentColor\" stroke=\"none\"/>"
+  },
+  {
+   "name": "carrot",
+   "label": "Carrot",
+   "category": "food",
+   "tags": [
+    "vegetables",
+    "groceries",
+    "farm",
+    "garden",
+    "produce",
+    "vegan"
+   ],
+   "body": "<path d=\"M14.5 9.5c-2-2-5-1.5-6.5 1L3.5 20.5l10-4.5c2.5-1.5 3-4.5 1-6.5z\"/><path d=\"M14.5 9.5L18 6\"/><path d=\"M15 9l.5-5.5\"/><path d=\"M15 9l5.5-.5\"/><path d=\"M8 14l1.5 1.5\"/><path d=\"M10.5 11l1.5 1.5\"/>"
+  },
+  {
+   "name": "ice-cream",
+   "label": "Ice cream",
+   "category": "food",
+   "tags": [
+    "dessert",
+    "treats",
+    "summer",
+    "sweets",
+    "ice",
+    "cream",
+    "shop"
+   ],
+   "body": "<path d=\"M7 10.5a5 5 0 0 1 10 0\"/><path d=\"M6.5 10.5h11L12 21z\"/>"
+  },
+  {
+   "name": "grocery",
+   "label": "Grocery",
+   "category": "food",
+   "tags": [
+    "groceries",
+    "shopping",
+    "list",
+    "pantry",
+    "supermarket",
+    "meal",
+    "planning"
+   ],
+   "body": "<path d=\"M5.5 9h13l-1.2 10.2a1.5 1.5 0 0 1-1.5 1.3H8.2a1.5 1.5 0 0 1-1.5-1.3z\"/><path d=\"M9 9l1.5-5.5\"/><path d=\"M15 9l-1.5-5.5\"/><path d=\"M9 13v3.5\"/><path d=\"M12 13v3.5\"/><path d=\"M15 13v3.5\"/>"
+  },
+  {
+   "name": "gamepad",
+   "label": "Gamepad",
+   "category": "play",
+   "tags": [
+    "gaming",
+    "video",
+    "games",
+    "game",
+    "dev",
+    "console",
+    "esports"
+   ],
+   "body": "<path d=\"M6.5 7h11a4 4 0 0 1 3.9 3.1l1 4.6a2.6 2.6 0 0 1-4.7 2L16.5 15h-9l-1.2 1.7a2.6 2.6 0 0 1-4.7-2l1-4.6A4 4 0 0 1 6.5 7z\"/><path d=\"M8 9.5v3\"/><path d=\"M6.5 11h3\"/><circle cx=\"15.5\" cy=\"10\" r=\"1\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"17.5\" cy=\"12\" r=\"1\" fill=\"currentColor\" stroke=\"none\"/>"
+  },
+  {
+   "name": "dice",
+   "label": "Dice",
+   "category": "play",
+   "tags": [
+    "board",
+    "games",
+    "tabletop",
+    "dnd",
+    "rpg",
+    "chance",
+    "probability"
+   ],
+   "body": "<rect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"3\"/><circle cx=\"8.5\" cy=\"8.5\" r=\"1.2\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"15.5\" cy=\"8.5\" r=\"1.2\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"12\" cy=\"12\" r=\"1.2\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"8.5\" cy=\"15.5\" r=\"1.2\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"15.5\" cy=\"15.5\" r=\"1.2\" fill=\"currentColor\" stroke=\"none\"/>"
+  },
+  {
+   "name": "chess",
+   "label": "Chess",
+   "category": "play",
+   "tags": [
+    "chess",
+    "strategy",
+    "game",
+    "tournament",
+    "club"
+   ],
+   "body": "<circle cx=\"12\" cy=\"6\" r=\"2.5\"/><path d=\"M9.5 11h5\"/><path d=\"M10.3 11c0 3-1 5.5-2.8 7.5h9c-1.8-2-2.8-4.5-2.8-7.5\"/><path d=\"M6.5 20.5h11\"/><path d=\"M10.5 8.4L9.5 11\"/><path d=\"M13.5 8.4l1 2.6\"/>"
+  },
+  {
+   "name": "ball",
+   "label": "Ball",
+   "category": "play",
+   "tags": [
+    "sports",
+    "basketball",
+    "team",
+    "league",
+    "coaching",
+    "athletics"
+   ],
+   "body": "<circle cx=\"12\" cy=\"12\" r=\"9\"/><path d=\"M3 12h18\"/><path d=\"M12 3v18\"/><path d=\"M5.6 5.6c3.5 3.5 3.5 9.3 0 12.8\"/><path d=\"M18.4 5.6c-3.5 3.5-3.5 9.3 0 12.8\"/>"
+  },
+  {
+   "name": "medal",
+   "label": "Medal",
+   "category": "play",
+   "tags": [
+    "medal",
+    "race",
+    "competition",
+    "olympics",
+    "achievement",
+    "ranking"
+   ],
+   "body": "<circle cx=\"12\" cy=\"15\" r=\"5.5\"/><path d=\"M8.5 3.5L10.5 9.8\"/><path d=\"M15.5 3.5L13.5 9.8\"/><path d=\"M8.5 3.5h7\"/><path d=\"M12 12.5v5\"/><path d=\"M11 13.2l1-.7\"/>"
+  },
+  {
+   "name": "balloon",
+   "label": "Balloon",
+   "category": "play",
+   "tags": [
+    "party",
+    "celebration",
+    "events",
+    "birthday",
+    "festivities"
+   ],
+   "body": "<path d=\"M12 3a5.5 5.5 0 0 0-5.5 5.5c0 3.5 3 7 5.5 7s5.5-3.5 5.5-7A5.5 5.5 0 0 0 12 3z\"/><path d=\"M11 17.3h2l-1-1.8z\"/><path d=\"M12 17.3c0 1.5-1.5 1.8-1.5 3.2\"/>"
+  },
+  {
+   "name": "guitar",
+   "label": "Guitar",
+   "category": "play",
+   "tags": [
+    "guitar",
+    "band",
+    "music",
+    "lessons",
+    "instrument",
+    "practice"
+   ],
+   "body": "<path d=\"M14 10l6.5-6.5\"/><path d=\"M19 2.5l2.5 2.5\"/><path d=\"M11.5 8.5c-1.2-.4-2.6 0-3.4 1-.6.7-.6 1.8-1.6 2.2-1.6.6-3.3 1.3-3.5 3.5-.3 2.6 2.7 5.6 5.3 5.3 2.2-.2 2.9-1.9 3.5-3.5.4-1 1.5-1 2.2-1.6 1-.8 1.4-2.2 1-3.4\"/><path d=\"M9 15l1.5 1.5\"/><circle cx=\"11.2\" cy=\"12.8\" r=\"1\" fill=\"currentColor\" stroke=\"none\"/>"
+  },
+  {
+   "name": "yarn",
+   "label": "Yarn",
+   "category": "play",
+   "tags": [
+    "knitting",
+    "crochet",
+    "crafts",
+    "sewing",
+    "hobby",
+    "handmade",
+    "etsy"
+   ],
+   "body": "<circle cx=\"11\" cy=\"12\" r=\"7.5\"/><path d=\"M5.5 7c3 1 6 4 7.5 12\"/><path d=\"M9.5 4.7c3 2 4.5 5 5 9.5\"/><path d=\"M3.7 13.5c3-.5 6 .5 9 4.5\"/><path d=\"M18 15.5c1 2 2.5 3 3.5 2.5\"/>"
+  },
+  {
+   "name": "fish",
+   "label": "Fish",
+   "category": "play",
+   "tags": [
+    "fishing",
+    "aquarium",
+    "seafood",
+    "angling",
+    "lake"
+   ],
+   "body": "<path d=\"M3 12c3-4.5 9-6.5 14-2.5l4-2.5v10l-4-2.5C12 18.5 6 16.5 3 12z\"/><circle cx=\"8\" cy=\"11\" r=\"1\" fill=\"currentColor\" stroke=\"none\"/>"
+  },
+  {
+   "name": "scale",
+   "label": "Scale",
+   "category": "legal",
+   "tags": [
+    "legal",
+    "law",
+    "lawyer",
+    "justice",
+    "court",
+    "case",
+    "attorney",
+    "compliance"
+   ],
+   "body": "<path d=\"M12 3.5v17\"/><path d=\"M7 20.5h10\"/><path d=\"M4.5 7h15\"/><path d=\"M2 13.5a2.5 2.5 0 0 0 5 0L4.5 7z\"/><path d=\"M17 13.5a2.5 2.5 0 0 0 5 0L19.5 7z\"/>"
+  },
+  {
+   "name": "gavel",
+   "label": "Gavel",
+   "category": "legal",
+   "tags": [
+    "court",
+    "auction",
+    "litigation",
+    "ruling",
+    "judge",
+    "hearing"
+   ],
+   "body": "<path d=\"M12.5 3.5l6.5 6.5-2.5 2.5L10 6z\"/><path d=\"M13.25 9.25L4.5 18a1.4 1.4 0 0 0 2 2l8.75-8.75\"/><path d=\"M12.5 21h8\"/>"
+  },
+  {
+   "name": "stamp",
+   "label": "Stamp",
+   "category": "legal",
+   "tags": [
+    "approval",
+    "approved",
+    "notary",
+    "official",
+    "paperwork",
+    "permits"
+   ],
+   "body": "<path d=\"M12 3a2.5 2.5 0 0 0-2.5 2.5c0 2 1 3 1 5.5h3c0-2.5 1-3.5 1-5.5A2.5 2.5 0 0 0 12 3z\"/><path d=\"M5 14a1.5 1.5 0 0 1 1.5-1.5h11A1.5 1.5 0 0 1 19 14v3H5z\"/><path d=\"M6 20.5h12\"/>"
+  },
+  {
+   "name": "landmark",
+   "label": "Landmark",
+   "category": "legal",
+   "tags": [
+    "government",
+    "civic",
+    "city",
+    "council",
+    "public",
+    "policy",
+    "politics",
+    "nonprofit"
+   ],
+   "body": "<path d=\"M12 3l8.5 5h-17z\"/><path d=\"M5 10.5v6.5\"/><path d=\"M9.5 10.5v6.5\"/><path d=\"M14.5 10.5v6.5\"/><path d=\"M19 10.5v6.5\"/><path d=\"M3 20h18\"/><path d=\"M4 17h16\"/>"
+  },
+  {
+   "name": "verified",
+   "label": "Verified",
+   "category": "legal",
+   "tags": [
+    "verified",
+    "approved",
+    "compliance",
+    "certified",
+    "quality",
+    "audit",
+    "standards"
+   ],
+   "body": "<path d=\"M12 4Q14.97 2.87 16.7 5.53Q19.77 6.36 19.61 9.53Q21.6 12 19.61 14.47Q19.77 17.64 16.7 18.47Q14.97 21.13 12 20Q9.03 21.13 7.3 18.47Q4.23 17.64 4.39 14.47Q2.4 12 4.39 9.53Q4.23 6.36 7.3 5.53Q9.03 2.87 12 4Z\"/><path d=\"M8.5 12l2.5 2.5 4.5-5\"/>"
+  },
+  {
+   "name": "file-lock",
+   "label": "File lock",
+   "category": "legal",
+   "tags": [
+    "confidential",
+    "private",
+    "records",
+    "hr",
+    "files",
+    "nda",
+    "sensitive"
+   ],
+   "body": "<path d=\"M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h3\"/><path d=\"M14 3v4a1 1 0 0 0 1 1h4v2.5\"/><path d=\"M14 3v4a1 1 0 0 0 1 1h4\"/><rect x=\"13\" y=\"15\" width=\"7\" height=\"6\" rx=\"1.2\"/><path d=\"M14.5 15v-1.5a2 2 0 0 1 4 0V15\"/>"
+  },
+  {
+   "name": "taxes",
+   "label": "Taxes",
+   "category": "legal",
+   "tags": [
+    "taxes",
+    "tax",
+    "return",
+    "irs",
+    "filing",
+    "deductions",
+    "accountant",
+    "1099",
+    "w2"
+   ],
+   "body": "<path d=\"M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z\"/><path d=\"M14 3v4a1 1 0 0 0 1 1h4\"/><path d=\"M9 16l6-6\"/><circle cx=\"9.5\" cy=\"10.5\" r=\"1\"/><circle cx=\"14.5\" cy=\"15.5\" r=\"1\"/>"
+  },
+  {
+   "name": "heart-hand",
+   "label": "Heart hand",
+   "category": "legal",
+   "tags": [
+    "charity",
+    "nonprofit",
+    "donations",
+    "volunteer",
+    "fundraising",
+    "giving",
+    "church"
+   ],
+   "body": "<path d=\"M12 10.5C9.5 8.8 8 7.4 8 5.6A2 2 0 0 1 10 3.5c.8 0 1.5.4 2 1.1.5-.7 1.2-1.1 2-1.1a2 2 0 0 1 2 2.1c0 1.8-1.5 3.2-4 4.9z\"/><path d=\"M3 15.5h3l4.5 1.5h3a1.5 1.5 0 0 0 0-3H10\"/><path d=\"M13.5 16l5-2.2a1.5 1.5 0 0 1 1.5 2.6L13 20.5H6l-3-1.5\"/>"
+  },
+  {
+   "name": "star",
+   "label": "Star",
+   "category": "symbols",
+   "tags": [
+    "favorite",
+    "starred",
+    "important",
+    "featured",
+    "reviews",
+    "rating"
+   ],
+   "body": "<path d=\"M12 3.3L14.41 9.18L20.75 9.66L15.9 13.77L17.41 19.94L12 16.6L6.59 19.94L8.1 13.77L3.25 9.66L9.59 9.18Z\"/>"
+  },
+  {
+   "name": "heart",
+   "label": "Heart",
+   "category": "symbols",
+   "tags": [
+    "love",
+    "favorite",
+    "personal",
+    "relationships",
+    "dating",
+    "self",
+    "care"
+   ],
+   "body": "<path d=\"M12 20.5C7 17 3.5 13.8 3.5 9.5A4.5 4.5 0 0 1 8 5c1.6 0 3 .8 4 2.2C13 5.8 14.4 5 16 5a4.5 4.5 0 0 1 4.5 4.5c0 4.3-3.5 7.5-8.5 11z\"/>"
+  },
+  {
+   "name": "bolt",
+   "label": "Bolt",
+   "category": "symbols",
+   "tags": [
+    "energy",
+    "fast",
+    "quick",
+    "power",
+    "electric",
+    "urgent",
+    "hackathon"
+   ],
+   "body": "<path d=\"M13 2.5L4.5 13.5H11l-1 8 8.5-11H12z\"/>"
+  },
+  {
+   "name": "flame",
+   "label": "Flame",
+   "category": "symbols",
+   "tags": [
+    "hot",
+    "trending",
+    "fire",
+    "habits",
+    "streaks",
+    "motivation",
+    "urgent"
+   ],
+   "body": "<path d=\"M12 21c3.6 0 6.5-2.7 6.5-6.5 0-3.2-2-5.6-3.6-7.5-.4 1.6-1.3 2.8-2.4 3.3.3-3.2-1-6.3-3.5-7.8.2 3.5-1.7 5.3-3 7.2-.9 1.3-1.5 2.9-1.5 4.8C5.5 18.3 8.4 21 12 21z\"/><path d=\"M12 21c-1.5 0-2.5-1.1-2.5-2.5 0-1.8 1.5-2.7 2.5-4.5 1 1.8 2.5 2.7 2.5 4.5 0 1.4-1 2.5-2.5 2.5z\"/>"
+  },
+  {
+   "name": "snowflake",
+   "label": "Snowflake",
+   "category": "symbols",
+   "tags": [
+    "winter",
+    "snow",
+    "ski",
+    "cold",
+    "holidays",
+    "frozen"
+   ],
+   "body": "<path d=\"M12 12L12 3\"/><path d=\"M10.05 5.33L12 7.05L13.95 5.33\"/><path d=\"M12 12L19.79 7.5\"/><path d=\"M16.8 6.98L16.29 9.53L18.75 10.35\"/><path d=\"M12 12L19.79 16.5\"/><path d=\"M18.75 13.65L16.29 14.47L16.8 17.02\"/><path d=\"M12 12L12 21\"/><path d=\"M13.95 18.67L12 16.95L10.05 18.67\"/><path d=\"M12 12L4.21 16.5\"/><path d=\"M7.2 17.02L7.71 14.48L5.25 13.65\"/><path d=\"M12 12L4.21 7.5\"/><path d=\"M5.25 10.35L7.71 9.52L7.2 6.98\"/>"
+  },
+  {
+   "name": "hash",
+   "label": "Hash",
+   "category": "symbols",
+   "tags": [
+    "social",
+    "media",
+    "hashtag",
+    "tags",
+    "channels",
+    "slack",
+    "twitter",
+    "instagram"
+   ],
+   "body": "<path d=\"M5 9h15\"/><path d=\"M4 15h15\"/><path d=\"M10 4L8 20\"/><path d=\"M16 4l-2 16\"/>"
+  },
+  {
+   "name": "at",
+   "label": "At",
+   "category": "symbols",
+   "tags": [
+    "contact",
+    "handle",
+    "username",
+    "email",
+    "mentions",
+    "social"
+   ],
+   "body": "<circle cx=\"12\" cy=\"12\" r=\"3.5\"/><path d=\"M15.5 12v1.5a2.5 2.5 0 0 0 5 0V12a8.5 8.5 0 1 0-3.4 6.8\"/>"
+  },
+  {
+   "name": "hexagon",
+   "label": "Hexagon",
+   "category": "symbols",
+   "tags": [
+    "hexagon",
+    "modular",
+    "system",
+    "product",
+    "framework",
+    "honeycomb"
+   ],
+   "body": "<path d=\"M12 2.8L19.97 7.4L19.97 16.6L12 21.2L4.03 16.6L4.03 7.4Z\"/>"
+  },
+  {
+   "name": "gem",
+   "label": "Gem",
+   "category": "symbols",
+   "tags": [
+    "premium",
+    "luxury",
+    "jewelry",
+    "valuable",
+    "diamond",
+    "quality"
+   ],
+   "body": "<path d=\"M6.5 4h11l4 5.5L12 20.5 2.5 9.5z\"/><path d=\"M2.5 9.5h19\"/><path d=\"M9 4L7.5 9.5 12 20.5l4.5-11L15 4\"/>"
+  },
+  {
+   "name": "crown",
+   "label": "Crown",
+   "category": "symbols",
+   "tags": [
+    "vip",
+    "leadership",
+    "premium",
+    "royal",
+    "top",
+    "tier",
+    "best"
+   ],
+   "body": "<path d=\"M3.5 7.5l4 4.5L12 5.5l4.5 6.5 4-4.5-2 10.5h-13z\"/><path d=\"M5.5 20.5h13\"/>"
+  },
+  {
+   "name": "bell",
+   "label": "Bell",
+   "category": "symbols",
+   "tags": [
+    "notifications",
+    "alerts",
+    "reminders",
+    "announcements"
+   ],
+   "body": "<path d=\"M6 16.5V11a6 6 0 0 1 12 0v5.5l1.5 2h-15z\"/><path d=\"M10 21h4\"/><path d=\"M12 3.5V5\"/>"
+  },
+  {
+   "name": "smile",
+   "label": "Smile",
+   "category": "symbols",
+   "tags": [
+    "happy",
+    "fun",
+    "personal",
+    "social",
+    "customer",
+    "happiness",
+    "wellbeing"
+   ],
+   "body": "<circle cx=\"12\" cy=\"12\" r=\"9\"/><path d=\"M8.5 14.5c1.8 2 5.2 2 7 0\"/><circle cx=\"9\" cy=\"9.5\" r=\"1\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"15\" cy=\"9.5\" r=\"1\" fill=\"currentColor\" stroke=\"none\"/>"
+  },
+  {
+   "name": "cube",
+   "label": "Cube",
+   "category": "symbols",
+   "tags": [
+    "3d",
+    "modeling",
+    "product",
+    "prototype",
+    "objects",
+    "blender",
+    "cad"
+   ],
+   "body": "<path d=\"M12 3l8 4.5v9L12 21l-8-4.5v-9z\"/><path d=\"M4 7.5l8 4.5 8-4.5\"/><path d=\"M12 12v9\"/>"
+  },
+  {
+   "name": "pin",
+   "label": "Pin",
+   "category": "symbols",
+   "tags": [
+    "pinned",
+    "important",
+    "saved",
+    "priority",
+    "board"
+   ],
+   "body": "<path d=\"M9 3.5h6\"/><path d=\"M10 3.5v5l-3 3.5h10l-3-3.5v-5\"/><path d=\"M12 12v8.5\"/>"
+  },
+  {
+   "name": "eye",
+   "label": "Eye",
+   "category": "symbols",
+   "tags": [
+    "watch",
+    "monitoring",
+    "review",
+    "vision",
+    "observe",
+    "visibility"
+   ],
+   "body": "<path d=\"M2.5 12C4.5 7.8 8 5.5 12 5.5s7.5 2.3 9.5 6.5c-2 4.2-5.5 6.5-9.5 6.5S4.5 16.2 2.5 12z\"/><circle cx=\"12\" cy=\"12\" r=\"3\"/>"
+  },
+  {
+   "name": "rainbow",
+   "label": "Rainbow",
+   "category": "symbols",
+   "tags": [
+    "pride",
+    "diversity",
+    "inclusion",
+    "kids",
+    "colorful",
+    "hope"
+   ],
+   "body": "<path d=\"M3 18a9 9 0 0 1 18 0\"/><path d=\"M6.5 18a5.5 5.5 0 0 1 11 0\"/><path d=\"M10 18a2 2 0 0 1 4 0\"/>"
+  },
+  {
+   "name": "circle",
+   "label": "Circle",
+   "category": "symbols",
+   "tags": [
+    "general",
+    "default",
+    "blank",
+    "simple",
+    "project",
+    "dot"
+   ],
+   "body": "<circle cx=\"12\" cy=\"12\" r=\"8.5\"/>"
+  }
+ ]
+}
