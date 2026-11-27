@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Project Icons for Claude</title>
+  <meta name="description" content="A working concept for Claude project icons: a 212-icon set in one consistent style, icons that pick themselves from what a project is about, and icons that show when a project is working, done, or needs you.">
+  <meta property="og:title" content="Project Icons for Claude, a concept">
+  <meta property="og:description" content="212 original icons, automatic icon suggestions, and status at a glance. Try the live sidebar.">
+  <meta property="og:image" content="https://wjddesigns.github.io/claude-icons/docs/preview.png">
+  <link rel="icon" href="docs/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="src/styles.css">
+  <script>
+    try {
+      const t = localStorage.getItem('cpi-theme');
+      if (t) document.documentElement.dataset.theme = t;
+    } catch (e) {}
+  </script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="topbar">
+    <div class="brand">
+      <project-icon icon="sparkles" color="clay" size="28" label="Project Icons"></project-icon>
+      <span class="brand-name">Project Icons</span>
+      <span class="brand-tag">a concept for Claude</span>
+    </div>
+    <nav class="tabs" aria-label="Sections">
+      <a href="#demo" data-view="demo">Live demo</a>
+      <a href="#library" data-view="library">Icon library</a>
+      <a href="#about" data-view="about">How it works</a>
+    </nav>
+    <div class="top-actions">
+      <a class="ghost-btn" href="https://github.com/wjddesigns/claude-icons" target="_blank" rel="noopener">GitHub</a>
+      <button class="icon-btn" id="themeToggle" type="button" aria-label="Switch between light and dark">
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a9 9 0 1 0 9 9 7 7 0 0 1-9-9z"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ── Live demo ─────────────────────────────────────────────── -->
+    <section class="view" id="view-demo" data-view="demo">
+      <div class="hero">
+        <h1>Project icons that <em>mean something.</em></h1>
+        <p class="lede">Three ideas for the project icons in Claude, working together in one sidebar. A larger set drawn in one style. Icons that pick themselves from what a project is about. And icons that tell you, at a glance, which project is working, which is done, and which one needs you.</p>
+        <ul class="hero-points">
+          <li><b>Rename a project</b> or add files and watch its icon follow.</li>
+          <li><b>Start a task</b> and see the sidebar report back.</li>
+          <li><b>Pick your own</b> icon any time. Auto steps aside.</li>
+        </ul>
+      </div>
+
+      <div class="app-frame" id="appFrame">
+        <aside class="sidebar" aria-label="Projects">
+          <div class="sb-head">
+            <h2>Projects</h2>
+            <button class="sb-new" id="newProject" type="button">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>
+              New project
+            </button>
+          </div>
+          <p class="sb-summary" id="sbSummary" aria-live="polite"></p>
+          <ul class="sb-list" id="sbList"></ul>
+          <div class="sb-foot">
+            <label class="switch">
+              <input type="checkbox" id="simToggle" checked>
+              <span class="track" aria-hidden="true"></span>
+              <span>Simulate activity</span>
+            </label>
+            <button class="link-btn" id="resetDemo" type="button">Reset</button>
+          </div>
+        </aside>
+        <section class="detail" id="detail" aria-live="off"></section>
+      </div>
+    </section>
+
+    <!-- ── Icon library ──────────────────────────────────────────── -->
+    <section class="view" id="view-library" data-view="library" hidden>
+      <div class="lib-head">
+        <div>
+          <h1>The icon library</h1>
+          <p class="lede" id="libLede">Every icon is drawn on the same 24 point grid with a 1.5 stroke and round ends, so any mix of them sits well together in a sidebar. Free to use under the MIT license.</p>
+        </div>
+        <div class="lib-downloads">
+          <a class="primary-btn" href="claude-project-icons.zip" download>
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v11M7.5 11 12 15.5 16.5 11M5 20h14"/></svg>
+            Download all SVGs
+          </a>
+          <a class="ghost-btn" href="dist/sprite.svg" download>Sprite</a>
+          <a class="ghost-btn" href="dist/icons.json" download>JSON</a>
+        </div>
+      </div>
+      <div class="lib-controls">
+        <label class="search">
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m15.5 15.5 5 5"/></svg>
+          <input type="search" id="libSearch" placeholder="Search icons, like “invoice” or “garden”" autocomplete="off">
+        </label>
+        <div class="swatches" id="libColors" role="radiogroup" aria-label="Preview color"></div>
+        <label class="slider">Size <input type="range" id="libSize" min="16" max="48" step="4" value="28"></label>
+        <label class="check"><input type="checkbox" id="libTiles" checked> Tiles</label>
+      </div>
+      <div id="libGrid" class="lib-grid"></div>
+      <aside class="lib-panel" id="libPanel" hidden></aside>
+    </section>
+
+    <!-- ── How it works ──────────────────────────────────────────── -->
+    <section class="view" id="view-about" data-view="about" hidden>
+      <div class="about">
+        <h1>How it works</h1>
+        <p class="lede">Today a Claude project picks from a small set of general icons in seven colors, and the sidebar can't tell you what any project is doing. This concept changes three things.</p>
+
+        <div class="idea">
+          <div class="idea-art" id="artSet"></div>
+          <div>
+            <h2><span class="num">1</span> A set drawn for what people actually make</h2>
+            <p>212 original icons in 15 groups: clients and work, stores, money, websites and code, AI and data, writing, design, school, home and family, health, travel, food, hobbies, legal and admin, and symbols. Twelve colors tuned to sit on Claude's warm neutrals in light and dark.</p>
+            <p>Every icon follows the same rules, so they look like one family:</p>
+            <ul>
+              <li>24 × 24 grid with a 2 point safe margin</li>
+              <li>1.5 stroke at 24, thickening slightly at small sizes so they stay legible</li>
+              <li>Round caps and joins, 2 point corners on large shapes, no fills except tiny dots</li>
+              <li>Each icon sits on a soft tile in its color, the way a sidebar shows it</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="idea">
+          <div class="idea-art" id="artSuggest"></div>
+          <div>
+            <h2><span class="num">2</span> Icons that pick themselves</h2>
+            <p>When you create or rename a project, Claude suggests an icon and a color from the project's name, its instructions, and the files in it. A spreadsheet of receipts leans toward money, a folder of <code>.fig</code> files toward design, a name like “Kitchen remodel” toward tools.</p>
+            <p>The suggestion explains itself (“matched ‘invoice’ in the name”), groups colors by meaning so a sidebar sorts itself visually, and avoids giving two sibling projects the same icon in the same color. It runs instantly on the device, with no model call, so it can update as you type. Picking an icon yourself turns auto off for that project, and one click turns it back on.</p>
+          </div>
+        </div>
+
+        <div class="idea">
+          <div class="idea-art" id="artStatus"></div>
+          <div>
+            <h2><span class="num">3</span> Icons that show status</h2>
+            <p>With Claude working in the background across projects, the sidebar should say what's happening without opening each one.</p>
+            <ul>
+              <li><b>Working:</b> a light travels around the tile, or fills it when progress is known.</li>
+              <li><b>Needs you:</b> a clay dot at the top corner that gently breathes. The only state that asks for attention.</li>
+              <li><b>Done:</b> a green check pops in once and clears when you open the project, like an unread mark.</li>
+              <li><b>Problem:</b> a steady red mark, and the icon dims.</li>
+            </ul>
+            <p>Each state differs by position and shape as well as color, so it reads for color blind people too. Motion stops entirely when the system asks for reduced motion, and every state is announced to screen readers.</p>
+          </div>
+        </div>
+
+        <h2 class="use-head">Use it</h2>
+        <p>The icons are plain SVG. The status tile is a small web component with no dependencies:</p>
+<pre><code>&lt;script type="module" src="src/project-icon.js"&gt;&lt;/script&gt;
+
+&lt;project-icon icon="store" color="violet" size="32"&gt;&lt;/project-icon&gt;
+&lt;project-icon icon="invoice" color="green" status="needs-input"&gt;&lt;/project-icon&gt;
+&lt;project-icon icon="browser" color="sky" status="working" progress="0.6"&gt;&lt;/project-icon&gt;</code></pre>
+        <p>Suggestions come from one function:</p>
+<pre><code>import { suggest } from './src/suggest.js';
+
+suggest({ name: 'Acme Corp invoices', files: ['march.pdf', 'clients.xlsx'] });
+// → { icon: 'invoice', color: 'green', confidence: 1,
+//     reasons: ['“invoices” in name'], alternatives: [...] }</code></pre>
+        <p class="fine">An independent concept, shared in the spirit of community contributions. Not made by or affiliated with Anthropic. All icons are original artwork, released under the MIT license.</p>
+      </div>
+    </section>
+  </main>
+
+  <dialog class="picker" id="picker" aria-labelledby="pickerTitle">
+    <form method="dialog" class="picker-inner">
+      <header class="picker-head">
+        <h2 id="pickerTitle">Choose an icon</h2>
+        <button class="icon-btn" value="close" aria-label="Close">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg>
+        </button>
+      </header>
+      <label class="search">
+        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m15.5 15.5 5 5"/></svg>
+        <input type="search" id="pickerSearch" placeholder="Search 212 icons" autocomplete="off">
+      </label>
+      <div class="picker-body" id="pickerBody"></div>
+      <footer class="picker-foot">
+        <div class="swatches" id="pickerColors" role="radiogroup" aria-label="Color"></div>
+        <div class="picker-actions">
+          <button class="ghost-btn" type="button" id="pickerAuto">Use suggestion</button>
+          <button class="primary-btn" value="close">Done</button>
+        </div>
+      </footer>
+    </form>
+  </dialog>
+
+  <script type="module" src="src/app.js"></script>
+</body>
+</html>
